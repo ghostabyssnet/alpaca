@@ -1,0 +1,19 @@
+Igual: <list>
+DIFF:   <beans.CampoVO>
+ -->   <beans.BancoVO>
+DIFF:     <id>
+ -->     <codBanco>1</codBanco>
+DIFF:       <codCampo>2</codCampo>
+ -->     <desArquivo>encrypted</desArquivo>
+DIFF:       <codForm>372</codForm>
+ -->     <desBanco>WorkFlow</desBanco>
+DIFF:       <codVersao>1</codVersao>
+ -->     <ideBanco>4</ideBanco>
+DIFF:     </id>
+ -->     <query>SELECT * FROM INFO</query>
+DIFF:     <altura>0</altura>
+ -->     <loginUsersPermExportacao></loginUsersPermExportacao>
+DIFF:     <codArquivo>0</codArquivo>
+ -->   </beans.BancoVO>
+DIFF:     <codCampoPai>0</codCampoPai>
+ --> </list>

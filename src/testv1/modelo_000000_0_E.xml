@@ -1,0 +1,400 @@
+<list>
+  <beans.EtapaVO>
+    <id>
+      <codEtapa>1</codEtapa>
+      <codForm>372</codForm>
+      <codVersao>1</codVersao>
+    </id>
+    <codEscalonar></codEscalonar>
+    <codRoteamento></codRoteamento>
+    <codTipoEtapa>2</codTipoEtapa>
+    <codUrlRejeita>0</codUrlRejeita>
+    <desAjudaAprovar> </desAjudaAprovar>
+    <desEtapa>CANCELAR_SOLICITACAO</desEtapa>
+    <desLabelAprovar>Aprovar</desLabelAprovar>
+    <desLabelRejeitar> </desLabelRejeitar>
+    <roteamento>[]</roteamento>
+    <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+    <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+    <ideAviso>N</ideAviso>
+    <ideAvisoAtraso>N</ideAvisoAtraso>
+    <ideAvisoLider>N</ideAvisoLider>
+    <ideConcentradora>N</ideConcentradora>
+    <ideFormatoEmail>H</ideFormatoEmail>
+    <ideLinkEmail>N</ideLinkEmail>
+    <idePDFAprova>N</idePDFAprova>
+    <idePDFRejeita>N</idePDFRejeita>
+    <ideTipoEmail>N</ideTipoEmail>
+    <ideTpEscalonar></ideTpEscalonar>
+    <ideTpRoteamento>I</ideTpRoteamento>
+    <permissaoGrupos></permissaoGrupos>
+    <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+    <textoAvisoEtapaFinalRejeitado>Esta solicitação foi cancelada pelo solicitante.</textoAvisoEtapaFinalRejeitado>
+    <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+    <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+    <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+    <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+    <tituloEtapa>Cancelar Solicitação</tituloEtapa>
+    <vlrAlerta>0</vlrAlerta>
+    <vlrAtraso1>0</vlrAtraso1>
+    <vlrAtraso2>0</vlrAtraso2>
+    <vlrAtrasoGestor>0</vlrAtrasoGestor>
+    <vlrEscalonamento>0</vlrEscalonamento>
+    <vlrHibernacao>0</vlrHibernacao>
+    <vlrTempLimGest>0</vlrTempLimGest>
+    <idDiagrama>12</idDiagrama>
+    <phaseNameExportacao>Finalização</phaseNameExportacao>
+    <javascripts class="org.hibernate.collection.internal.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="beans.EtapaVO" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>beans.EtapaVO.javascripts</role>
+      <key class="beans.EtapaKeyVO" reference="../../id"/>
+      <dirty>false</dirty>
+      <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+    </javascripts>
+    <typeExecution>MANUAL</typeExecution>
+    <loop>false</loop>
+    <script>false</script>
+    <publicForm>
+      <active>true</active>
+      <publicFormUser>3</publicFormUser>
+    </publicForm>
+  </beans.EtapaVO>
+  <beans.EtapaVO>
+    <id>
+      <codEtapa>2</codEtapa>
+      <codForm>372</codForm>
+      <codVersao>1</codVersao>
+    </id>
+    <codEscalonar></codEscalonar>
+    <codRoteamento></codRoteamento>
+    <codTipoEtapa>0</codTipoEtapa>
+    <codUrlRejeita>0</codUrlRejeita>
+    <desEtapa>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</desEtapa>
+    <desLabelAprovar>Reenviar Solicitação</desLabelAprovar>
+    <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+    <desLabelRejeitar>Cancelar Solicitação</desLabelRejeitar>
+    <desRotAprovado>SEGUE_ETAPA(ANALISAR_SOLICITACAO,UG,$V_GRUPO_ATENDENTE)</desRotAprovado>
+    <roteamento>[{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;&quot;,&quot;id&quot;:&quot;15&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;CANCELAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;USUARIO_LOGADO&quot;,&quot;id&quot;:&quot;15&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;15&quot;}],&quot;acao&quot;:&quot;REJEICAO&quot;},{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Reenviar\nSolicitação\n&quot;,&quot;id&quot;:&quot;34&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ANALISAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;GRUPO&quot;,&quot;id&quot;:&quot;34&quot;,&quot;responsavel&quot;:&quot;$V_GRUPO_ATENDENTE&quot;}],&quot;id&quot;:&quot;34&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+    <desRotRejeitado>SEGUE_ETAPA(CANCELAR_SOLICITACAO,M)</desRotRejeitado>
+    <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+    <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+    <ideAviso>N</ideAviso>
+    <ideAvisoAtraso>N</ideAvisoAtraso>
+    <ideAvisoLider>N</ideAvisoLider>
+    <ideConcentradora>N</ideConcentradora>
+    <ideFormatoEmail>H</ideFormatoEmail>
+    <ideLinkEmail>N</ideLinkEmail>
+    <idePDFAprova>N</idePDFAprova>
+    <idePDFRejeita>N</idePDFRejeita>
+    <ideTipoEmail>C</ideTipoEmail>
+    <ideTpEscalonar></ideTpEscalonar>
+    <ideTpRoteamento>I</ideTpRoteamento>
+    <permissaoGrupos></permissaoGrupos>
+    <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+    <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+    <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+    <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+    <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+    <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+    <tituloEtapa>Atender Ajustes e  Complementações da Solicitação</tituloEtapa>
+    <vlrAlerta>0</vlrAlerta>
+    <vlrAlerta2>0</vlrAlerta2>
+    <vlrAtraso1>0</vlrAtraso1>
+    <vlrAtraso2>0</vlrAtraso2>
+    <vlrAtrasoGestor>0</vlrAtrasoGestor>
+    <vlrEscalonamento>0</vlrEscalonamento>
+    <vlrHibernacao>0</vlrHibernacao>
+    <vlrTempLimGest>0</vlrTempLimGest>
+    <idDiagrama>11</idDiagrama>
+    <phaseNameExportacao>Solicitação</phaseNameExportacao>
+    <javascripts class="org.hibernate.collection.internal.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="beans.EtapaVO" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>beans.EtapaVO.javascripts</role>
+      <key class="beans.EtapaKeyVO" reference="../../id"/>
+      <dirty>false</dirty>
+      <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+    </javascripts>
+    <typeExecution>MANUAL</typeExecution>
+    <loop>false</loop>
+    <approvalLoopExpression></approvalLoopExpression>
+    <rejectionLoopExpression></rejectionLoopExpression>
+    <script>false</script>
+    <expressionDynamicApproval></expressionDynamicApproval>
+    <expressionDynamicRejection></expressionDynamicRejection>
+    <publicForm>
+      <active>true</active>
+      <publicFormUser>3</publicFormUser>
+    </publicForm>
+  </beans.EtapaVO>
+  <beans.EtapaVO>
+    <id>
+      <codEtapa>3</codEtapa>
+      <codForm>372</codForm>
+      <codVersao>1</codVersao>
+    </id>
+    <codEscalonar></codEscalonar>
+    <codRoteamento></codRoteamento>
+    <codTipoEtapa>2</codTipoEtapa>
+    <codUrlRejeita>0</codUrlRejeita>
+    <desAjudaAprovar> </desAjudaAprovar>
+    <desEtapa>SOLICITACAO_DEFERIDA</desEtapa>
+    <desLabelAprovar>Aprovar</desLabelAprovar>
+    <desLabelRejeitar> </desLabelRejeitar>
+    <roteamento>[]</roteamento>
+    <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+    <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+    <ideAviso>N</ideAviso>
+    <ideAvisoAtraso>N</ideAvisoAtraso>
+    <ideAvisoLider>N</ideAvisoLider>
+    <ideConcentradora>N</ideConcentradora>
+    <ideFormatoEmail>H</ideFormatoEmail>
+    <ideLinkEmail>N</ideLinkEmail>
+    <idePDFAprova>N</idePDFAprova>
+    <idePDFRejeita>N</idePDFRejeita>
+    <ideTipoEmail>N</ideTipoEmail>
+    <ideTpEscalonar></ideTpEscalonar>
+    <ideTpRoteamento>I</ideTpRoteamento>
+    <permissaoGrupos></permissaoGrupos>
+    <textoAvisoEtapaFinalAprovado>Sua solicitação foi deferida! &#xd;
+Verifique o detalhamento abaixo para mais informações.</textoAvisoEtapaFinalAprovado>
+    <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+    <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+    <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+    <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+    <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+    <tituloEtapa>Solicitação Deferida</tituloEtapa>
+    <vlrAlerta>0</vlrAlerta>
+    <vlrAtraso1>0</vlrAtraso1>
+    <vlrAtraso2>0</vlrAtraso2>
+    <vlrAtrasoGestor>0</vlrAtrasoGestor>
+    <vlrEscalonamento>0</vlrEscalonamento>
+    <vlrHibernacao>0</vlrHibernacao>
+    <vlrTempLimGest>0</vlrTempLimGest>
+    <idDiagrama>22</idDiagrama>
+    <phaseNameExportacao>Finalização</phaseNameExportacao>
+    <javascripts class="org.hibernate.collection.internal.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="beans.EtapaVO" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>beans.EtapaVO.javascripts</role>
+      <key class="beans.EtapaKeyVO" reference="../../id"/>
+      <dirty>false</dirty>
+      <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+    </javascripts>
+    <typeExecution>MANUAL</typeExecution>
+    <loop>false</loop>
+    <script>false</script>
+    <publicForm>
+      <active>true</active>
+      <publicFormUser>3</publicFormUser>
+    </publicForm>
+  </beans.EtapaVO>
+  <beans.EtapaVO>
+    <id>
+      <codEtapa>4</codEtapa>
+      <codForm>372</codForm>
+      <codVersao>1</codVersao>
+    </id>
+    <codEscalonar></codEscalonar>
+    <codRoteamento></codRoteamento>
+    <codTipoEtapa>2</codTipoEtapa>
+    <codUrlRejeita>0</codUrlRejeita>
+    <desAjudaAprovar> </desAjudaAprovar>
+    <desEtapa>SOLICITACAO_INDEFERIDA</desEtapa>
+    <desLabelAprovar>Aprovar</desLabelAprovar>
+    <desLabelRejeitar> </desLabelRejeitar>
+    <roteamento>[]</roteamento>
+    <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+    <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+    <ideAviso>N</ideAviso>
+    <ideAvisoAtraso>N</ideAvisoAtraso>
+    <ideAvisoLider>N</ideAvisoLider>
+    <ideConcentradora>N</ideConcentradora>
+    <ideFormatoEmail>H</ideFormatoEmail>
+    <ideLinkEmail>N</ideLinkEmail>
+    <idePDFAprova>N</idePDFAprova>
+    <idePDFRejeita>N</idePDFRejeita>
+    <ideTipoEmail>N</ideTipoEmail>
+    <ideTpEscalonar></ideTpEscalonar>
+    <ideTpRoteamento>I</ideTpRoteamento>
+    <permissaoGrupos></permissaoGrupos>
+    <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+    <textoAvisoEtapaFinalRejeitado>Sua solicitação foi indeferida. &#xd;
+Verifique o detalhamento abaixo para mais informações.</textoAvisoEtapaFinalRejeitado>
+    <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+    <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+    <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+    <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+    <tituloEtapa>Solicitação Indeferida</tituloEtapa>
+    <vlrAlerta>0</vlrAlerta>
+    <vlrAtraso1>0</vlrAtraso1>
+    <vlrAtraso2>0</vlrAtraso2>
+    <vlrAtrasoGestor>0</vlrAtrasoGestor>
+    <vlrEscalonamento>0</vlrEscalonamento>
+    <vlrHibernacao>0</vlrHibernacao>
+    <vlrTempLimGest>0</vlrTempLimGest>
+    <idDiagrama>24</idDiagrama>
+    <phaseNameExportacao>Finalização</phaseNameExportacao>
+    <javascripts class="org.hibernate.collection.internal.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="beans.EtapaVO" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>beans.EtapaVO.javascripts</role>
+      <key class="beans.EtapaKeyVO" reference="../../id"/>
+      <dirty>false</dirty>
+      <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+    </javascripts>
+    <typeExecution>MANUAL</typeExecution>
+    <loop>false</loop>
+    <script>false</script>
+    <publicForm>
+      <active>true</active>
+      <publicFormUser>3</publicFormUser>
+    </publicForm>
+  </beans.EtapaVO>
+  <beans.EtapaVO>
+    <id>
+      <codEtapa>6</codEtapa>
+      <codForm>372</codForm>
+      <codVersao>1</codVersao>
+    </id>
+    <codEscalonar></codEscalonar>
+    <codRoteamento></codRoteamento>
+    <codTipoEtapa>1</codTipoEtapa>
+    <codUrlRejeita>0</codUrlRejeita>
+    <desEtapa>INFORMAR_DADOS_DA_SOLICITACAO</desEtapa>
+    <desLabelAprovar>Enviar Solicitação</desLabelAprovar>
+    <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+    <desLabelRejeitar> </desLabelRejeitar>
+    <desRotAprovado>SEGUE_ETAPA(ANALISAR_SOLICITACAO,UG,$V_GRUPO_ATENDENTE)</desRotAprovado>
+    <roteamento>[{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Enviar\nSolicitação\n&quot;,&quot;id&quot;:&quot;10&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ANALISAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;GRUPO&quot;,&quot;id&quot;:&quot;10&quot;,&quot;responsavel&quot;:&quot;$V_GRUPO_ATENDENTE&quot;}],&quot;id&quot;:&quot;10&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+    <desRotRejeitado> </desRotRejeitado>
+    <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+    <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+    <ideAviso>N</ideAviso>
+    <ideAvisoAtraso>N</ideAvisoAtraso>
+    <ideAvisoLider>N</ideAvisoLider>
+    <ideConcentradora>N</ideConcentradora>
+    <ideFormatoEmail>H</ideFormatoEmail>
+    <ideLinkEmail>N</ideLinkEmail>
+    <idePDFAprova>N</idePDFAprova>
+    <idePDFRejeita>N</idePDFRejeita>
+    <ideTipoEmail>C</ideTipoEmail>
+    <ideTpEscalonar></ideTpEscalonar>
+    <ideTpRoteamento>I</ideTpRoteamento>
+    <permissaoGrupos></permissaoGrupos>
+    <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+    <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+    <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+    <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+    <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+    <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+    <tituloEtapa>Informar Dados da Solicitação</tituloEtapa>
+    <vlrAlerta>0</vlrAlerta>
+    <vlrAlerta2>0</vlrAlerta2>
+    <vlrAtraso1>0</vlrAtraso1>
+    <vlrAtraso2>0</vlrAtraso2>
+    <vlrAtrasoGestor>0</vlrAtrasoGestor>
+    <vlrEscalonamento>0</vlrEscalonamento>
+    <vlrHibernacao>0</vlrHibernacao>
+    <vlrTempLimGest>0</vlrTempLimGest>
+    <idDiagrama>7</idDiagrama>
+    <phaseNameExportacao>Solicitação</phaseNameExportacao>
+    <javascripts class="org.hibernate.collection.internal.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="beans.EtapaVO" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>beans.EtapaVO.javascripts</role>
+      <key class="beans.EtapaKeyVO" reference="../../id"/>
+      <dirty>false</dirty>
+      <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+    </javascripts>
+    <typeExecution>MANUAL</typeExecution>
+    <loop>false</loop>
+    <approvalLoopExpression></approvalLoopExpression>
+    <script>false</script>
+    <expressionDynamicApproval></expressionDynamicApproval>
+    <publicForm>
+      <active>true</active>
+      <publicFormUser>3</publicFormUser>
+    </publicForm>
+  </beans.EtapaVO>
+  <beans.EtapaVO>
+    <id>
+      <codEtapa>7</codEtapa>
+      <codForm>372</codForm>
+      <codVersao>1</codVersao>
+    </id>
+    <codEscalonar></codEscalonar>
+    <codRoteamento></codRoteamento>
+    <codTipoEtapa>0</codTipoEtapa>
+    <codUrlRejeita>0</codUrlRejeita>
+    <desEtapa>ANALISAR_SOLICITACAO</desEtapa>
+    <desLabelAprovar>Aceitar Solicitação</desLabelAprovar>
+    <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+    <desLabelRejeitar>Rejeitar</desLabelRejeitar>
+    <desRotAprovado>SEGUE_ETAPA(SOLICITACAO_DEFERIDA,I)</desRotAprovado>
+    <roteamento>[{&quot;tipo&quot;:&quot;CONDICIONAL&quot;,&quot;nome&quot;:&quot;&quot;,&quot;id&quot;:&quot;18&quot;,&quot;roteamentos&quot;:[{&quot;se&quot;:{},&quot;fimSe&quot;:{},&quot;condicao&quot;:{&quot;nome&quot;:&quot;Solicitar\nAjustes&quot;,&quot;expressao&quot;:&quot;$CHECK_ANALISE_ACAO == \&quot;Solicitar Ajustes\&quot; || $CHECK_ANALISE_ACAO == \&quot;Enviar Recomendações/Informações\&quot;&quot;,&quot;id&quot;:&quot;20&quot;},&quot;segueEtapa&quot;:{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;id&quot;:&quot;20&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;20&quot;},&quot;rotaPadrao&quot;:false,&quot;nome&quot;:&quot;&quot;,&quot;entao&quot;:{},&quot;id&quot;:&quot;20&quot;},{&quot;se&quot;:{},&quot;fimSe&quot;:{},&quot;condicao&quot;:{&quot;nome&quot;:&quot;Enviar\nResposta com\nIndeferimento&quot;,&quot;expressao&quot;:&quot;$CHECK_ANALISE_ACAO == \&quot;Recusar Solicitação\&quot;&quot;,&quot;id&quot;:&quot;25&quot;},&quot;segueEtapa&quot;:{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;SOLICITACAO_INDEFERIDA&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;id&quot;:&quot;25&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;25&quot;},&quot;rotaPadrao&quot;:false,&quot;nome&quot;:&quot;&quot;,&quot;entao&quot;:{},&quot;id&quot;:&quot;25&quot;}],&quot;acao&quot;:&quot;REJEICAO&quot;},{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Enviar\nResposta com\nDeferimento\n&quot;,&quot;id&quot;:&quot;23&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;SOLICITACAO_DEFERIDA&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;id&quot;:&quot;23&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;23&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+    <desRotRejeitado>SE ($CHECK_ANALISE_ACAO == &quot;Solicitar Ajustes&quot; || $CHECK_ANALISE_ACAO == &quot;Enviar Recomendações/Informações&quot;) ENTAO
+	SEGUE_ETAPA(ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO,I)
+FIM_SE
+SE ($CHECK_ANALISE_ACAO == &quot;Recusar Solicitação&quot;) ENTAO
+	SEGUE_ETAPA(SOLICITACAO_INDEFERIDA,I)
+FIM_SE</desRotRejeitado>
+    <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+    <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+    <ideAviso>N</ideAviso>
+    <ideAvisoAtraso>N</ideAvisoAtraso>
+    <ideAvisoLider>N</ideAvisoLider>
+    <ideConcentradora>N</ideConcentradora>
+    <ideFormatoEmail>H</ideFormatoEmail>
+    <ideLinkEmail>N</ideLinkEmail>
+    <idePDFAprova>N</idePDFAprova>
+    <idePDFRejeita>N</idePDFRejeita>
+    <ideTipoEmail>C</ideTipoEmail>
+    <ideTpEscalonar></ideTpEscalonar>
+    <ideTpRoteamento></ideTpRoteamento>
+    <nomClasseAprova>com.lecom.workflow.integracao.balcaodigital.EfetivaAcaoAnalise</nomClasseAprova>
+    <permissaoGrupos></permissaoGrupos>
+    <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+    <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+    <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+    <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+    <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+    <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+    <tituloEtapa>Analisar Solicitação</tituloEtapa>
+    <vlrAlerta>0</vlrAlerta>
+    <vlrAlerta2>0</vlrAlerta2>
+    <vlrAtraso1>0</vlrAtraso1>
+    <vlrAtraso2>0</vlrAtraso2>
+    <vlrAtrasoGestor>0</vlrAtrasoGestor>
+    <vlrEscalonamento>0</vlrEscalonamento>
+    <vlrHibernacao>0</vlrHibernacao>
+    <vlrTempLimGest>0</vlrTempLimGest>
+    <idDiagrama>9</idDiagrama>
+    <phaseNameExportacao>Análise</phaseNameExportacao>
+    <javascripts class="org.hibernate.collection.internal.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="beans.EtapaVO" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>beans.EtapaVO.javascripts</role>
+      <key class="beans.EtapaKeyVO" reference="../../id"/>
+      <dirty>false</dirty>
+      <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+    </javascripts>
+    <typeExecution>MANUAL</typeExecution>
+    <loop>false</loop>
+    <approvalLoopExpression></approvalLoopExpression>
+    <rejectionLoopExpression></rejectionLoopExpression>
+    <script>false</script>
+    <expressionDynamicApproval></expressionDynamicApproval>
+    <expressionDynamicRejection></expressionDynamicRejection>
+    <publicForm>
+      <active>false</active>
+    </publicForm>
+  </beans.EtapaVO>
+</list>

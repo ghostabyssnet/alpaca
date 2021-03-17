@@ -1,0 +1,139 @@
+DIFF: <beans.FormularioVO>
+ --> <list>
+DIFF:   <hashValue>0</hashValue>
+ -->   <beans.JavascriptVO>
+DIFF:   <id>
+ -->     <codJavascript>120</codJavascript>
+DIFF:     <codForm>372</codForm>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:     <codVersao>1</codVersao>
+ -->     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+DIFF:   </id>
+ -->     <tipo>P</tipo>
+DIFF:   <dataAtualizacao class="sql-timestamp">2021-02-22 16:54:42.03</dataAtualizacao>
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:   <desAjuda> </desAjuda>
+ -->     <nomeEtapaExportacao>CANCELAR_SOLICITACAO</nomeEtapaExportacao>
+DIFF:   <desArquivo></desArquivo>
+ -->     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+DIFF:   <desDescricao></desDescricao>
+ -->   </beans.JavascriptVO>
+DIFF:   <desNomeTabela>f_blc_fio01</desNomeTabela>
+ -->   <beans.JavascriptVO>
+DIFF:   <desSubtitulo></desSubtitulo>
+ -->     <codJavascript>413</codJavascript>
+DIFF:   <desTitulo>[Fiocruz] Balcão Digital</desTitulo>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:   <emailTeste></emailTeste>
+ -->     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+DIFF:   <ideAlterado></ideAlterado>
+ -->     <tipo>P</tipo>
+DIFF:   <ideApresentacao>E</ideApresentacao>
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:   <ideBetaTeste>N</ideBetaTeste>
+ -->     <nomeEtapaExportacao>CANCELAR_SOLICITACAO</nomeEtapaExportacao>
+DIFF:   <ideResultAbert>S</ideResultAbert>
+ -->     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+DIFF:   <ideStatus>S</ideStatus>
+ -->   </beans.JavascriptVO>
+DIFF:   <ideVisualiza> </ideVisualiza>
+ -->   <beans.JavascriptVO>
+DIFF:   <novoFormulario>S</novoFormulario>
+ -->     <codJavascript>520</codJavascript>
+DIFF:   <tipoObrigatoriedade>L</tipoObrigatoriedade>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:   <ordensCategorias class="org.hibernate.collection.internal.PersistentBag">
+ -->     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v2.js</nomeArquivoJS>
+DIFF:     <initialized>false</initialized>
+ -->     <tipo>P</tipo>
+DIFF:     <owner class="beans.FormularioVO" reference="../.."/>
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:     <cachedSize>-1</cachedSize>
+ -->     <nomeEtapaExportacao>CANCELAR_SOLICITACAO</nomeEtapaExportacao>
+DIFF:     <role>beans.FormularioVO.ordensCategorias</role>
+ -->     <ordemEtapaExportacao>2</ordemEtapaExportacao>
+DIFF:     <key class="beans.FormularioKeyVO" reference="../../id"/>
+ -->   </beans.JavascriptVO>
+DIFF:     <dirty>false</dirty>
+ -->   <beans.JavascriptVO>
+DIFF:     <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <codJavascript>120</codJavascript>
+DIFF:   </ordensCategorias>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:   <favModelos class="org.hibernate.collection.internal.PersistentBag">
+ -->     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+DIFF:     <initialized>false</initialized>
+ -->     <tipo>P</tipo>
+DIFF:     <owner class="beans.FormularioVO" reference="../.."/>
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:     <cachedSize>-1</cachedSize>
+ -->     <nomeEtapaExportacao>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</nomeEtapaExportacao>
+DIFF:     <role>beans.FormularioVO.favModelos</role>
+ -->     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+DIFF:     <key class="beans.FormularioKeyVO" reference="../../id"/>
+ -->   </beans.JavascriptVO>
+DIFF:     <dirty>false</dirty>
+ -->   <beans.JavascriptVO>
+DIFF:     <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <codJavascript>413</codJavascript>
+DIFF:   </favModelos>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:   <tipoModelagem>DIAGRAMA_WEB_V1</tipoModelagem>
+ -->     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+DIFF:   <phases class="org.hibernate.collection.internal.PersistentBag">
+ -->     <tipo>P</tipo>
+DIFF:     <initialized>false</initialized>
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:     <owner class="beans.FormularioVO" reference="../.."/>
+ -->     <nomeEtapaExportacao>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</nomeEtapaExportacao>
+DIFF:     <cachedSize>-1</cachedSize>
+ -->     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+DIFF:     <role>beans.FormularioVO.phases</role>
+ -->   </beans.JavascriptVO>
+DIFF:     <key class="beans.FormularioKeyVO" reference="../../id"/>
+ -->   <beans.JavascriptVO>
+DIFF:     <dirty>false</dirty>
+ -->     <codJavascript>520</codJavascript>
+DIFF:     <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:   </phases>
+ -->     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v2.js</nomeArquivoJS>
+DIFF:   <diagram>
+ -->     <tipo>P</tipo>
+DIFF:     <currentDiagram>&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=&quot;0&quot;/&gt;&lt;mxCell id=&quot;1&quot; parent=&quot;0&quot;/&gt;&lt;mxCell id=&quot;2&quot; value=&quot;Portal de Serviços&quot; style=&quot;lane&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;10&quot; y=&quot;10&quot; width=&quot;860&quot; height=&quot;220&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;3&quot; value=&quot;Cidadão ou Empresa Solicitante&quot; style=&quot;lane&quot; parent=&quot;2&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;22&quot; width=&quot;838&quot; height=&quot;220&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;26&quot; style=&quot;end-event-terminate&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;766&quot; y=&quot;39&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;24&quot; value=&quot;Solicitação&amp;#10;Indeferida&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;618&quot; y=&quot;25&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;13&quot; style=&quot;end-event-terminate&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;55&quot; y=&quot;39&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;12&quot; value=&quot;Cancelar&amp;#10;Solicitação&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;125&quot; y=&quot;25&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;11&quot; value=&quot;Atender Ajustes e &amp;#10;Complementações&amp;#10;da Solicitação&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;338&quot; y=&quot;25&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;28&quot; style=&quot;end-event-terminate&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;766&quot; y=&quot;154&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;22&quot; value=&quot;Solicitação&amp;#10;Deferida&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;618&quot; y=&quot;140&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;7&quot; value=&quot;Informar Dados&amp;#10;da Solicitação&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;125&quot; y=&quot;140&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;6&quot; style=&quot;start-event&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;55&quot; y=&quot;154&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;8&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;6&quot; target=&quot;7&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;14&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;12&quot; target=&quot;13&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;15&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;11&quot; target=&quot;12&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;27&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;24&quot; target=&quot;26&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;29&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;22&quot; target=&quot;28&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;4&quot; value=&quot;Módulo do Atendente (LecomBPM)&quot; style=&quot;lane&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;10&quot; y=&quot;250&quot; width=&quot;860&quot; height=&quot;210&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;5&quot; value=&quot;Analista do Serviço&quot; style=&quot;lane&quot; parent=&quot;4&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;22&quot; width=&quot;838&quot; height=&quot;210&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;18&quot; style=&quot;gateway-exclusive&quot; parent=&quot;5&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;398&quot; y=&quot;15&quot; width=&quot;50&quot; height=&quot;50&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;9&quot; value=&quot;Analisar&amp;#10;Solicitação&quot; style=&quot;task&quot; parent=&quot;5&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;338&quot; y=&quot;90&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;19&quot; style=&quot;&quot; parent=&quot;5&quot; source=&quot;9&quot; target=&quot;18&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;35&quot; value=&quot;A análise e a resposta à &amp;#10;solicitação será &amp;#10;atribuída para um único&amp;#10;grupo (por serviço) de atendimento.&quot; style=&quot;annotation&quot; parent=&quot;5&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;57&quot; y=&quot;33&quot; width=&quot;173&quot; height=&quot;127&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;36&quot; style=&quot;association;endArrow=&amp;quot;&amp;quot;&quot; parent=&quot;5&quot; source=&quot;9&quot; target=&quot;35&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;10&quot; value=&quot;Enviar&amp;#10;Solicitação&amp;#10;&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;7&quot; target=&quot;9&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;20&quot; value=&quot;Solicitar&amp;#10;Ajustes&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;18&quot; target=&quot;11&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;23&quot; value=&quot;Enviar&amp;#10;Resposta com&amp;#10;Deferimento&amp;#10;&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;9&quot; target=&quot;22&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;0.029&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;630&quot; y=&quot;280&quot;/&gt;&lt;/Array&gt;&lt;mxPoint as=&quot;offset&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;25&quot; value=&quot;Enviar&amp;#10;Resposta com&amp;#10;Indeferimento&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;18&quot; target=&quot;24&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;34&quot; value=&quot;Reenviar&amp;#10;Solicitação&amp;#10;&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;11&quot; target=&quot;9&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;0.0204&quot; y=&quot;-100&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;400&quot; y=&quot;220&quot;/&gt;&lt;/Array&gt;&lt;mxPoint x=&quot;100&quot; y=&quot;-100&quot; as=&quot;offset&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;</currentDiagram>
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:     <draftDiagram>&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=&quot;0&quot;/&gt;&lt;mxCell id=&quot;1&quot; parent=&quot;0&quot;/&gt;&lt;mxCell id=&quot;2&quot; value=&quot;Portal de Serviços&quot; style=&quot;lane&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;10&quot; y=&quot;10&quot; width=&quot;860&quot; height=&quot;220&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;3&quot; value=&quot;Cidadão ou Empresa Solicitante&quot; style=&quot;lane&quot; parent=&quot;2&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;22&quot; width=&quot;838&quot; height=&quot;220&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;26&quot; style=&quot;end-event-terminate&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;766&quot; y=&quot;39&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;24&quot; value=&quot;Solicitação&amp;#10;Indeferida&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;618&quot; y=&quot;25&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;13&quot; style=&quot;end-event-terminate&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;55&quot; y=&quot;39&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;12&quot; value=&quot;Cancelar&amp;#10;Solicitação&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;125&quot; y=&quot;25&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;11&quot; value=&quot;Atender Ajustes e &amp;#10;Complementações&amp;#10;da Solicitação&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;338&quot; y=&quot;25&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;28&quot; style=&quot;end-event-terminate&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;766&quot; y=&quot;154&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;22&quot; value=&quot;Solicitação&amp;#10;Deferida&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;618&quot; y=&quot;140&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;7&quot; value=&quot;Informar Dados&amp;#10;da Solicitação&quot; style=&quot;task&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;125&quot; y=&quot;140&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;6&quot; style=&quot;start-event&quot; parent=&quot;3&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;55&quot; y=&quot;154&quot; width=&quot;32&quot; height=&quot;32&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;8&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;6&quot; target=&quot;7&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;14&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;12&quot; target=&quot;13&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;15&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;11&quot; target=&quot;12&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;27&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;24&quot; target=&quot;26&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;29&quot; style=&quot;&quot; parent=&quot;3&quot; source=&quot;22&quot; target=&quot;28&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;4&quot; value=&quot;Módulo do Atendente (LecomBPM)&quot; style=&quot;lane&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;10&quot; y=&quot;250&quot; width=&quot;860&quot; height=&quot;210&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;5&quot; value=&quot;Analista do Serviço&quot; style=&quot;lane&quot; parent=&quot;4&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;22&quot; width=&quot;838&quot; height=&quot;210&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;18&quot; style=&quot;gateway-exclusive&quot; parent=&quot;5&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;398&quot; y=&quot;15&quot; width=&quot;50&quot; height=&quot;50&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;9&quot; value=&quot;Analisar&amp;#10;Solicitação&quot; style=&quot;task&quot; parent=&quot;5&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;338&quot; y=&quot;90&quot; width=&quot;120&quot; height=&quot;60&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;19&quot; style=&quot;&quot; parent=&quot;5&quot; source=&quot;9&quot; target=&quot;18&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;35&quot; value=&quot;A análise e a resposta à &amp;#10;solicitação será &amp;#10;atribuída para um único&amp;#10;grupo (por serviço) de atendimento.&quot; style=&quot;annotation&quot; parent=&quot;5&quot; vertex=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;57&quot; y=&quot;33&quot; width=&quot;173&quot; height=&quot;127&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;36&quot; style=&quot;association;endArrow=&amp;quot;&amp;quot;&quot; parent=&quot;5&quot; source=&quot;9&quot; target=&quot;35&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;10&quot; value=&quot;Enviar&amp;#10;Solicitação&amp;#10;&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;7&quot; target=&quot;9&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;20&quot; value=&quot;Solicitar&amp;#10;Ajustes&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;18&quot; target=&quot;11&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;23&quot; value=&quot;Enviar&amp;#10;Resposta com&amp;#10;Deferimento&amp;#10;&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;9&quot; target=&quot;22&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;0.029&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;630&quot; y=&quot;280&quot;/&gt;&lt;/Array&gt;&lt;mxPoint as=&quot;offset&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;25&quot; value=&quot;Enviar&amp;#10;Resposta com&amp;#10;Indeferimento&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;18&quot; target=&quot;24&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=&quot;34&quot; value=&quot;Reenviar&amp;#10;Solicitação&amp;#10;&quot; style=&quot;&quot; parent=&quot;1&quot; source=&quot;11&quot; target=&quot;9&quot; edge=&quot;1&quot;&gt;&lt;mxGeometry x=&quot;0.0204&quot; y=&quot;-100&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;400&quot; y=&quot;220&quot;/&gt;&lt;/Array&gt;&lt;mxPoint x=&quot;100&quot; y=&quot;-100&quot; as=&quot;offset&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;</draftDiagram>
+ -->     <nomeEtapaExportacao>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</nomeEtapaExportacao>
+DIFF:     <draftDefinitionUpdatedAt class="sql-timestamp">2021-02-04 17:51:03.033</draftDefinitionUpdatedAt>
+ -->     <ordemEtapaExportacao>2</ordemEtapaExportacao>
+DIFF:     <currentDefinitionUpdatedAt class="sql-timestamp">2021-02-04 17:51:04.17</currentDefinitionUpdatedAt>
+ -->   </beans.JavascriptVO>
+DIFF:     <processDefinition reference="../.."/>
+ -->   <beans.JavascriptVO>
+DIFF:   </diagram>
+ -->     <codJavascript>120</codJavascript>
+DIFF:   <proprietarioExportacao>adm</proprietarioExportacao>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:   <usuarioPermissaoExportacao>adm,</usuarioPermissaoExportacao>
+ -->     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+DIFF:   <favorite>false</favorite>
+ -->     <tipo>P</tipo>
+DIFF:   <groupings class="org.hibernate.collection.internal.PersistentBag">
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:     <initialized>false</initialized>
+ -->     <nomeEtapaExportacao>SOLICITACAO_DEFERIDA</nomeEtapaExportacao>
+DIFF:     <owner class="beans.FormularioVO" reference="../.."/>
+ -->     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+DIFF:     <cachedSize>-1</cachedSize>
+ -->   </beans.JavascriptVO>
+DIFF:     <role>beans.FormularioVO.groupings</role>
+ -->   <beans.JavascriptVO>
+DIFF:     <key class="beans.FormularioKeyVO" reference="../../id"/>
+ -->     <codJavascript>413</codJavascript>
+DIFF:     <dirty>false</dirty>
+ -->     <caminho>rotinaJS</caminho>
+DIFF:     <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+DIFF:   </groupings>
+ -->     <tipo>P</tipo>
+DIFF: </beans.FormularioVO> -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>

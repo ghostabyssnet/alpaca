@@ -1,0 +1,795 @@
+Igual: <list>
+DIFF:   <beans.EtapaVO>
+ -->   <beans.CampoVO>
+Igual:     <id>
+DIFF:       <codEtapa>1</codEtapa>
+ -->       <codCampo>53</codCampo>
+Igual:       <codForm>372</codForm>
+DIFF:       <codVersao>1</codVersao>
+ -->       <codVersao>2</codVersao>
+Igual:     </id>
+DIFF:     <codEscalonar></codEscalonar>
+ -->     <altura>0</altura>
+DIFF:     <codRoteamento></codRoteamento>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <codTipoEtapa>2</codTipoEtapa>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     <codUrlRejeita>0</codUrlRejeita>
+ -->     <desAjuda></desAjuda>
+DIFF:     <desAjudaAprovar> </desAjudaAprovar>
+ -->     <desLabel>Informação</desLabel>
+DIFF:     <desEtapa>CANCELAR_SOLICITACAO</desEtapa>
+ -->     <desNome>AJUDA_CPF_LIGHT</desNome>
+DIFF:     <desLabelAprovar>Aprovar</desLabelAprovar>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <desLabelRejeitar> </desLabelRejeitar>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:     <roteamento>[]</roteamento>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+ -->     <idePesquisavel>N</idePesquisavel>
+DIFF:     <ideAviso>N</ideAviso>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <ideAvisoAtraso>N</ideAvisoAtraso>
+ -->     <ideResultado>N</ideResultado>
+DIFF:     <ideAvisoLider>N</ideAvisoLider>
+ -->     <ideStatus>A</ideStatus>
+DIFF:     <ideConcentradora>N</ideConcentradora>
+ -->     <ideTipo>T</ideTipo>
+DIFF:     <ideFormatoEmail>H</ideFormatoEmail>
+ -->     <largura>0</largura>
+DIFF:     <ideLinkEmail>N</ideLinkEmail>
+ -->     <numColunas>80</numColunas>
+DIFF:     <idePDFAprova>N</idePDFAprova>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <idePDFRejeita>N</idePDFRejeita>
+ -->     <numIndice>1</numIndice>
+DIFF:     <ideTipoEmail>N</ideTipoEmail>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:     <ideTpEscalonar></ideTpEscalonar>
+ -->     <numOrdem>1</numOrdem>
+DIFF:     <ideTpRoteamento>I</ideTpRoteamento>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     <permissaoGrupos></permissaoGrupos>
+ -->     <numTamanho>4</numTamanho>
+DIFF:     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+ -->     <prefixo></prefixo>
+DIFF:     <textoAvisoEtapaFinalRejeitado>Esta solicitação foi cancelada pelo solicitante.</textoAvisoEtapaFinalRejeitado>
+ -->     <quebraLinha>N</quebraLinha>
+DIFF:     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:     <tituloEtapa>Cancelar Solicitação</tituloEtapa>
+ -->     <mask></mask>
+DIFF:     <vlrAlerta>0</vlrAlerta>
+ -->     <history>false</history>
+DIFF:     <vlrAtraso1>0</vlrAtraso1>
+ -->   </beans.CampoVO>
+DIFF:     <vlrAtraso2>0</vlrAtraso2>
+ -->   <beans.CampoVO>
+DIFF:     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+ -->     <id>
+DIFF:     <vlrEscalonamento>0</vlrEscalonamento>
+ -->       <codCampo>2</codCampo>
+DIFF:     <vlrHibernacao>0</vlrHibernacao>
+ -->       <codForm>372</codForm>
+DIFF:     <vlrTempLimGest>0</vlrTempLimGest>
+ -->       <codVersao>2</codVersao>
+DIFF:     <idDiagrama>12</idDiagrama>
+ -->     </id>
+DIFF:     <phaseNameExportacao>Finalização</phaseNameExportacao>
+ -->     <altura>0</altura>
+DIFF:     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+ -->     <codArquivo>0</codArquivo>
+DIFF:       <initialized>false</initialized>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:       <owner class="beans.EtapaVO" reference="../.."/>
+ -->     <desAjuda></desAjuda>
+DIFF:       <cachedSize>-1</cachedSize>
+ -->     <desLabel>CNPJ do Solicitante</desLabel>
+DIFF:       <role>beans.EtapaVO.javascripts</role>
+ -->     <desNome>CNPJ</desNome>
+DIFF:       <key class="beans.EtapaKeyVO" reference="../../id"/>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:       <dirty>false</dirty>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     </javascripts>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <typeExecution>MANUAL</typeExecution>
+ -->     <idePesquisavel>S</idePesquisavel>
+DIFF:     <loop>false</loop>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <script>false</script>
+ -->     <ideResultado>S</ideResultado>
+DIFF:     <publicForm>
+ -->     <ideStatus>A</ideStatus>
+DIFF:       <active>true</active>
+ -->     <ideTipo>S</ideTipo>
+DIFF:       <publicFormUser>3</publicFormUser>
+ -->     <largura>0</largura>
+DIFF:     </publicForm>
+ -->     <numColunas>0</numColunas>
+DIFF:   </beans.EtapaVO>
+ -->     <numGrupo>0</numGrupo>
+DIFF:   <beans.EtapaVO>
+ -->     <numIndice>2</numIndice>
+DIFF:     <id>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:       <codEtapa>2</codEtapa>
+ -->     <numOrdem>2</numOrdem>
+DIFF:       <codForm>372</codForm>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:       <codVersao>1</codVersao>
+ -->     <numTamanho>30</numTamanho>
+DIFF:     </id>
+ -->     <prefixo></prefixo>
+DIFF:     <codEscalonar></codEscalonar>
+ -->     <quebraLinha>N</quebraLinha>
+DIFF:     <codRoteamento></codRoteamento>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <codTipoEtapa>0</codTipoEtapa>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     <codUrlRejeita>0</codUrlRejeita>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <desEtapa>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</desEtapa>
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:     <desLabelAprovar>Reenviar Solicitação</desLabelAprovar>
+ -->     <mask>99.999.999/9999-99</mask>
+DIFF:     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+ -->     <history>false</history>
+DIFF:     <desLabelRejeitar>Cancelar Solicitação</desLabelRejeitar>
+ -->   </beans.CampoVO>
+DIFF:     <desRotAprovado>SEGUE_ETAPA(ANALISAR_SOLICITACAO,UG,$V_GRUPO_ATENDENTE)</desRotAprovado>
+ -->   <beans.CampoVO>
+DIFF:     <roteamento>[{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;&quot;,&quot;id&quot;:&quot;15&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;CANCELAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;USUARIO_LOGADO&quot;,&quot;id&quot;:&quot;15&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;15&quot;}],&quot;acao&quot;:&quot;REJEICAO&quot;},{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Reenviar\nSolicitação\n&quot;,&quot;id&quot;:&quot;34&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ANALISAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;GRUPO&quot;,&quot;id&quot;:&quot;34&quot;,&quot;responsavel&quot;:&quot;$V_GRUPO_ATENDENTE&quot;}],&quot;id&quot;:&quot;34&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+ -->     <id>
+DIFF:     <desRotRejeitado>SEGUE_ETAPA(CANCELAR_SOLICITACAO,M)</desRotRejeitado>
+ -->       <codCampo>1</codCampo>
+DIFF:     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+ -->       <codForm>372</codForm>
+DIFF:     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+ -->       <codVersao>2</codVersao>
+DIFF:     <ideAviso>N</ideAviso>
+ -->     </id>
+DIFF:     <ideAvisoAtraso>N</ideAvisoAtraso>
+ -->     <altura>0</altura>
+DIFF:     <ideAvisoLider>N</ideAvisoLider>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <ideConcentradora>N</ideConcentradora>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     <ideFormatoEmail>H</ideFormatoEmail>
+ -->     <desAjuda></desAjuda>
+DIFF:     <ideLinkEmail>N</ideLinkEmail>
+ -->     <desLabel>CPF do Solicitante</desLabel>
+DIFF:     <idePDFAprova>N</idePDFAprova>
+ -->     <desNome>CPF</desNome>
+DIFF:     <idePDFRejeita>N</idePDFRejeita>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <ideTipoEmail>C</ideTipoEmail>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:     <ideTpEscalonar></ideTpEscalonar>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     <ideTpRoteamento>I</ideTpRoteamento>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <permissaoGrupos></permissaoGrupos>
+ -->     <idePesquisavel>S</idePesquisavel>
+DIFF:     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+ -->     <ideResultado>S</ideResultado>
+DIFF:     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+ -->     <ideStatus>A</ideStatus>
+DIFF:     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+ -->     <ideTipo>S</ideTipo>
+DIFF:     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+ -->     <largura>0</largura>
+DIFF:     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+ -->     <numColunas>0</numColunas>
+DIFF:     <tituloEtapa>Atender Ajustes e  Complementações da Solicitação</tituloEtapa>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <vlrAlerta>0</vlrAlerta>
+ -->     <numIndice>3</numIndice>
+DIFF:     <vlrAlerta2>0</vlrAlerta2>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:     <vlrAtraso1>0</vlrAtraso1>
+ -->     <numOrdem>3</numOrdem>
+DIFF:     <vlrAtraso2>0</vlrAtraso2>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+ -->     <numTamanho>20</numTamanho>
+DIFF:     <vlrEscalonamento>0</vlrEscalonamento>
+ -->     <prefixo></prefixo>
+DIFF:     <vlrHibernacao>0</vlrHibernacao>
+ -->     <quebraLinha>N</quebraLinha>
+DIFF:     <vlrTempLimGest>0</vlrTempLimGest>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <idDiagrama>11</idDiagrama>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     <phaseNameExportacao>Solicitação</phaseNameExportacao>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:       <initialized>false</initialized>
+ -->     <mask>999.999.999-99</mask>
+DIFF:       <owner class="beans.EtapaVO" reference="../.."/>
+ -->     <history>false</history>
+DIFF:       <cachedSize>-1</cachedSize>
+ -->   </beans.CampoVO>
+DIFF:       <role>beans.EtapaVO.javascripts</role>
+ -->   <beans.CampoVO>
+DIFF:       <key class="beans.EtapaKeyVO" reference="../../id"/>
+ -->     <id>
+DIFF:       <dirty>false</dirty>
+ -->       <codCampo>4</codCampo>
+DIFF:       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->       <codForm>372</codForm>
+DIFF:     </javascripts>
+ -->       <codVersao>2</codVersao>
+DIFF:     <typeExecution>MANUAL</typeExecution>
+ -->     </id>
+DIFF:     <loop>false</loop>
+ -->     <altura>0</altura>
+DIFF:     <approvalLoopExpression></approvalLoopExpression>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <rejectionLoopExpression></rejectionLoopExpression>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     <script>false</script>
+ -->     <desAjuda></desAjuda>
+DIFF:     <expressionDynamicApproval></expressionDynamicApproval>
+ -->     <desLabel>Tipo de Interessado</desLabel>
+DIFF:     <expressionDynamicRejection></expressionDynamicRejection>
+ -->     <desNome>REQ_TIPO_PESSOA</desNome>
+DIFF:     <publicForm>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:       <active>true</active>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:       <publicFormUser>3</publicFormUser>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     </publicForm>
+ -->     <ideMascara>N</ideMascara>
+DIFF:   </beans.EtapaVO>
+ -->     <idePesquisavel>S</idePesquisavel>
+DIFF:   <beans.EtapaVO>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <id>
+ -->     <ideResultado>S</ideResultado>
+DIFF:       <codEtapa>3</codEtapa>
+ -->     <ideStatus>A</ideStatus>
+DIFF:       <codForm>372</codForm>
+ -->     <ideTipo>R</ideTipo>
+DIFF:       <codVersao>1</codVersao>
+ -->     <largura>0</largura>
+DIFF:     </id>
+ -->     <numColunas>0</numColunas>
+DIFF:     <codEscalonar></codEscalonar>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <codRoteamento></codRoteamento>
+ -->     <numIndice>4</numIndice>
+DIFF:     <codTipoEtapa>2</codTipoEtapa>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:     <codUrlRejeita>0</codUrlRejeita>
+ -->     <numOrdem>4</numOrdem>
+DIFF:     <desAjudaAprovar> </desAjudaAprovar>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     <desEtapa>SOLICITACAO_DEFERIDA</desEtapa>
+ -->     <numTamanho>0</numTamanho>
+DIFF:     <desLabelAprovar>Aprovar</desLabelAprovar>
+ -->     <prefixo></prefixo>
+DIFF:     <desLabelRejeitar> </desLabelRejeitar>
+ -->     <quebraLinha>S</quebraLinha>
+DIFF:     <roteamento>[]</roteamento>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <ideAviso>N</ideAviso>
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:     <ideAvisoAtraso>N</ideAvisoAtraso>
+ -->     <mask></mask>
+DIFF:     <ideAvisoLider>N</ideAvisoLider>
+ -->     <history>false</history>
+DIFF:     <ideConcentradora>N</ideConcentradora>
+ -->   </beans.CampoVO>
+DIFF:     <ideFormatoEmail>H</ideFormatoEmail>
+ -->   <beans.CampoVO>
+DIFF:     <ideLinkEmail>N</ideLinkEmail>
+ -->     <id>
+DIFF:     <idePDFAprova>N</idePDFAprova>
+ -->       <codCampo>61</codCampo>
+DIFF:     <idePDFRejeita>N</idePDFRejeita>
+ -->       <codForm>372</codForm>
+DIFF:     <ideTipoEmail>N</ideTipoEmail>
+ -->       <codVersao>2</codVersao>
+DIFF:     <ideTpEscalonar></ideTpEscalonar>
+ -->     </id>
+DIFF:     <ideTpRoteamento>I</ideTpRoteamento>
+ -->     <altura>0</altura>
+DIFF:     <permissaoGrupos></permissaoGrupos>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <textoAvisoEtapaFinalAprovado>Sua solicitação foi deferida! &#xd;
+ -->     <codCampoPai>0</codCampoPai>
+DIFF: Verifique o detalhamento abaixo para mais informações.</textoAvisoEtapaFinalAprovado>
+ -->     <desAjuda></desAjuda>
+DIFF:     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+ -->     <desLabel>Solicitante e interessado são as mesmas pessoas?</desLabel>
+DIFF:     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+ -->     <desNome>CHECK_INT</desNome>
+DIFF:     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     <tituloEtapa>Solicitação Deferida</tituloEtapa>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <vlrAlerta>0</vlrAlerta>
+ -->     <idePesquisavel>N</idePesquisavel>
+DIFF:     <vlrAtraso1>0</vlrAtraso1>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <vlrAtraso2>0</vlrAtraso2>
+ -->     <ideResultado>N</ideResultado>
+DIFF:     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+ -->     <ideStatus>A</ideStatus>
+DIFF:     <vlrEscalonamento>0</vlrEscalonamento>
+ -->     <ideTipo>C</ideTipo>
+DIFF:     <vlrHibernacao>0</vlrHibernacao>
+ -->     <largura>0</largura>
+DIFF:     <vlrTempLimGest>0</vlrTempLimGest>
+ -->     <numColunas>0</numColunas>
+DIFF:     <idDiagrama>22</idDiagrama>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <phaseNameExportacao>Finalização</phaseNameExportacao>
+ -->     <numIndice>5</numIndice>
+DIFF:     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:       <initialized>false</initialized>
+ -->     <numOrdem>5</numOrdem>
+DIFF:       <owner class="beans.EtapaVO" reference="../.."/>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:       <cachedSize>-1</cachedSize>
+ -->     <numTamanho>0</numTamanho>
+DIFF:       <role>beans.EtapaVO.javascripts</role>
+ -->     <prefixo></prefixo>
+DIFF:       <key class="beans.EtapaKeyVO" reference="../../id"/>
+ -->     <quebraLinha>S</quebraLinha>
+DIFF:       <dirty>false</dirty>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     </javascripts>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <typeExecution>MANUAL</typeExecution>
+ -->     <valueWhenChecked>Sim</valueWhenChecked>
+DIFF:     <loop>false</loop>
+ -->     <mask></mask>
+DIFF:     <script>false</script>
+ -->     <history>false</history>
+DIFF:     <publicForm>
+ -->   </beans.CampoVO>
+DIFF:       <active>true</active>
+ -->   <beans.CampoVO>
+DIFF:       <publicFormUser>3</publicFormUser>
+ -->     <id>
+DIFF:     </publicForm>
+ -->       <codCampo>5</codCampo>
+DIFF:   </beans.EtapaVO>
+ -->       <codForm>372</codForm>
+DIFF:   <beans.EtapaVO>
+ -->       <codVersao>2</codVersao>
+DIFF:     <id>
+ -->     </id>
+DIFF:       <codEtapa>4</codEtapa>
+ -->     <altura>0</altura>
+DIFF:       <codForm>372</codForm>
+ -->     <codArquivo>0</codArquivo>
+DIFF:       <codVersao>1</codVersao>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     </id>
+ -->     <desAjuda></desAjuda>
+DIFF:     <codEscalonar></codEscalonar>
+ -->     <desLabel>Nome do Interessado</desLabel>
+DIFF:     <codRoteamento></codRoteamento>
+ -->     <desNome>REQ_NOME</desNome>
+DIFF:     <codTipoEtapa>2</codTipoEtapa>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <codUrlRejeita>0</codUrlRejeita>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:     <desAjudaAprovar> </desAjudaAprovar>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     <desEtapa>SOLICITACAO_INDEFERIDA</desEtapa>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <desLabelAprovar>Aprovar</desLabelAprovar>
+ -->     <idePesquisavel>S</idePesquisavel>
+DIFF:     <desLabelRejeitar> </desLabelRejeitar>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <roteamento>[]</roteamento>
+ -->     <ideResultado>S</ideResultado>
+DIFF:     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+ -->     <ideStatus>A</ideStatus>
+DIFF:     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+ -->     <ideTipo>S</ideTipo>
+DIFF:     <ideAviso>N</ideAviso>
+ -->     <largura>0</largura>
+DIFF:     <ideAvisoAtraso>N</ideAvisoAtraso>
+ -->     <numColunas>0</numColunas>
+DIFF:     <ideAvisoLider>N</ideAvisoLider>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <ideConcentradora>N</ideConcentradora>
+ -->     <numIndice>6</numIndice>
+DIFF:     <ideFormatoEmail>H</ideFormatoEmail>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:     <ideLinkEmail>N</ideLinkEmail>
+ -->     <numOrdem>6</numOrdem>
+DIFF:     <idePDFAprova>N</idePDFAprova>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     <idePDFRejeita>N</idePDFRejeita>
+ -->     <numTamanho>50</numTamanho>
+DIFF:     <ideTipoEmail>N</ideTipoEmail>
+ -->     <prefixo></prefixo>
+DIFF:     <ideTpEscalonar></ideTpEscalonar>
+ -->     <quebraLinha>N</quebraLinha>
+DIFF:     <ideTpRoteamento>I</ideTpRoteamento>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <permissaoGrupos></permissaoGrupos>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <textoAvisoEtapaFinalRejeitado>Sua solicitação foi indeferida. &#xd;
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF: Verifique o detalhamento abaixo para mais informações.</textoAvisoEtapaFinalRejeitado>
+ -->     <history>false</history>
+DIFF:     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+ -->   </beans.CampoVO>
+DIFF:     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+ -->   <beans.CampoVO>
+DIFF:     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+ -->     <id>
+DIFF:     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+ -->       <codCampo>6</codCampo>
+DIFF:     <tituloEtapa>Solicitação Indeferida</tituloEtapa>
+ -->       <codForm>372</codForm>
+DIFF:     <vlrAlerta>0</vlrAlerta>
+ -->       <codVersao>2</codVersao>
+DIFF:     <vlrAtraso1>0</vlrAtraso1>
+ -->     </id>
+DIFF:     <vlrAtraso2>0</vlrAtraso2>
+ -->     <altura>0</altura>
+DIFF:     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <vlrEscalonamento>0</vlrEscalonamento>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     <vlrHibernacao>0</vlrHibernacao>
+ -->     <desAjuda></desAjuda>
+DIFF:     <vlrTempLimGest>0</vlrTempLimGest>
+ -->     <desLabel>CPF do Interessado</desLabel>
+DIFF:     <idDiagrama>24</idDiagrama>
+ -->     <desNome>REQ_CPF</desNome>
+DIFF:     <phaseNameExportacao>Finalização</phaseNameExportacao>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:       <initialized>false</initialized>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:       <owner class="beans.EtapaVO" reference="../.."/>
+ -->     <ideMascara>N</ideMascara>
+DIFF:       <cachedSize>-1</cachedSize>
+ -->     <idePesquisavel>S</idePesquisavel>
+DIFF:       <role>beans.EtapaVO.javascripts</role>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:       <key class="beans.EtapaKeyVO" reference="../../id"/>
+ -->     <ideResultado>S</ideResultado>
+DIFF:       <dirty>false</dirty>
+ -->     <ideStatus>A</ideStatus>
+DIFF:       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <ideTipo>S</ideTipo>
+DIFF:     </javascripts>
+ -->     <largura>0</largura>
+DIFF:     <typeExecution>MANUAL</typeExecution>
+ -->     <numColunas>0</numColunas>
+DIFF:     <loop>false</loop>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <script>false</script>
+ -->     <numIndice>7</numIndice>
+DIFF:     <publicForm>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:       <active>true</active>
+ -->     <numOrdem>7</numOrdem>
+DIFF:       <publicFormUser>3</publicFormUser>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     </publicForm>
+ -->     <numTamanho>20</numTamanho>
+DIFF:   </beans.EtapaVO>
+ -->     <prefixo></prefixo>
+DIFF:   <beans.EtapaVO>
+ -->     <quebraLinha>N</quebraLinha>
+DIFF:     <id>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:       <codEtapa>6</codEtapa>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:       <codForm>372</codForm>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:       <codVersao>1</codVersao>
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:     </id>
+ -->     <mask>999.999.999-99</mask>
+DIFF:     <codEscalonar></codEscalonar>
+ -->     <history>false</history>
+DIFF:     <codRoteamento></codRoteamento>
+ -->   </beans.CampoVO>
+DIFF:     <codTipoEtapa>1</codTipoEtapa>
+ -->   <beans.CampoVO>
+DIFF:     <codUrlRejeita>0</codUrlRejeita>
+ -->     <id>
+DIFF:     <desEtapa>INFORMAR_DADOS_DA_SOLICITACAO</desEtapa>
+ -->       <codCampo>7</codCampo>
+DIFF:     <desLabelAprovar>Enviar Solicitação</desLabelAprovar>
+ -->       <codForm>372</codForm>
+DIFF:     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+ -->       <codVersao>2</codVersao>
+DIFF:     <desLabelRejeitar> </desLabelRejeitar>
+ -->     </id>
+DIFF:     <desRotAprovado>SEGUE_ETAPA(ANALISAR_SOLICITACAO,UG,$V_GRUPO_ATENDENTE)</desRotAprovado>
+ -->     <altura>0</altura>
+DIFF:     <roteamento>[{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Enviar\nSolicitação\n&quot;,&quot;id&quot;:&quot;10&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ANALISAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;GRUPO&quot;,&quot;id&quot;:&quot;10&quot;,&quot;responsavel&quot;:&quot;$V_GRUPO_ATENDENTE&quot;}],&quot;id&quot;:&quot;10&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <desRotRejeitado> </desRotRejeitado>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+ -->     <desAjuda></desAjuda>
+DIFF:     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+ -->     <desLabel>CNPJ do Interessado</desLabel>
+DIFF:     <ideAviso>N</ideAviso>
+ -->     <desNome>REQ_CNPJ</desNome>
+DIFF:     <ideAvisoAtraso>N</ideAvisoAtraso>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <ideAvisoLider>N</ideAvisoLider>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:     <ideConcentradora>N</ideConcentradora>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     <ideFormatoEmail>H</ideFormatoEmail>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <ideLinkEmail>N</ideLinkEmail>
+ -->     <idePesquisavel>S</idePesquisavel>
+DIFF:     <idePDFAprova>N</idePDFAprova>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <idePDFRejeita>N</idePDFRejeita>
+ -->     <ideResultado>S</ideResultado>
+DIFF:     <ideTipoEmail>C</ideTipoEmail>
+ -->     <ideStatus>A</ideStatus>
+DIFF:     <ideTpEscalonar></ideTpEscalonar>
+ -->     <ideTipo>S</ideTipo>
+DIFF:     <ideTpRoteamento>I</ideTpRoteamento>
+ -->     <largura>0</largura>
+DIFF:     <permissaoGrupos></permissaoGrupos>
+ -->     <numColunas>0</numColunas>
+DIFF:     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+ -->     <numIndice>8</numIndice>
+DIFF:     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+ -->     <numOrdem>8</numOrdem>
+DIFF:     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+ -->     <numTamanho>30</numTamanho>
+DIFF:     <tituloEtapa>Informar Dados da Solicitação</tituloEtapa>
+ -->     <prefixo></prefixo>
+DIFF:     <vlrAlerta>0</vlrAlerta>
+ -->     <quebraLinha>S</quebraLinha>
+DIFF:     <vlrAlerta2>0</vlrAlerta2>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <vlrAtraso1>0</vlrAtraso1>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     <vlrAtraso2>0</vlrAtraso2>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:     <vlrEscalonamento>0</vlrEscalonamento>
+ -->     <mask>99.999.999/9999-99</mask>
+DIFF:     <vlrHibernacao>0</vlrHibernacao>
+ -->     <history>false</history>
+DIFF:     <vlrTempLimGest>0</vlrTempLimGest>
+ -->   </beans.CampoVO>
+DIFF:     <idDiagrama>7</idDiagrama>
+ -->   <beans.CampoVO>
+DIFF:     <phaseNameExportacao>Solicitação</phaseNameExportacao>
+ -->     <id>
+DIFF:     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+ -->       <codCampo>13</codCampo>
+DIFF:       <initialized>false</initialized>
+ -->       <codForm>372</codForm>
+DIFF:       <owner class="beans.EtapaVO" reference="../.."/>
+ -->       <codVersao>2</codVersao>
+DIFF:       <cachedSize>-1</cachedSize>
+ -->     </id>
+DIFF:       <role>beans.EtapaVO.javascripts</role>
+ -->     <altura>0</altura>
+DIFF:       <key class="beans.EtapaKeyVO" reference="../../id"/>
+ -->     <codArquivo>0</codArquivo>
+DIFF:       <dirty>false</dirty>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->     <desAjuda></desAjuda>
+DIFF:     </javascripts>
+ -->     <desLabel>Informações de endereço do interessado</desLabel>
+DIFF:     <typeExecution>MANUAL</typeExecution>
+ -->     <desNome>LBL_ENDERECO</desNome>
+DIFF:     <loop>false</loop>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <approvalLoopExpression></approvalLoopExpression>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:     <script>false</script>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     <expressionDynamicApproval></expressionDynamicApproval>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <publicForm>
+ -->     <idePesquisavel>N</idePesquisavel>
+DIFF:       <active>true</active>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:       <publicFormUser>3</publicFormUser>
+ -->     <ideResultado>N</ideResultado>
+DIFF:     </publicForm>
+ -->     <ideStatus>A</ideStatus>
+DIFF:   </beans.EtapaVO>
+ -->     <ideTipo>E</ideTipo>
+DIFF:   <beans.EtapaVO>
+ -->     <largura>0</largura>
+DIFF:     <id>
+ -->     <numColunas>0</numColunas>
+DIFF:       <codEtapa>7</codEtapa>
+ -->     <numGrupo>0</numGrupo>
+DIFF:       <codForm>372</codForm>
+ -->     <numIndice>9</numIndice>
+DIFF:       <codVersao>1</codVersao>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:     </id>
+ -->     <numOrdem>9</numOrdem>
+DIFF:     <codEscalonar></codEscalonar>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     <codRoteamento></codRoteamento>
+ -->     <numTamanho>0</numTamanho>
+DIFF:     <codTipoEtapa>0</codTipoEtapa>
+ -->     <prefixo></prefixo>
+DIFF:     <codUrlRejeita>0</codUrlRejeita>
+ -->     <quebraLinha>S</quebraLinha>
+DIFF:     <desEtapa>ANALISAR_SOLICITACAO</desEtapa>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <desLabelAprovar>Aceitar Solicitação</desLabelAprovar>
+ -->     <fontColor>000000</fontColor>
+DIFF:     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+ -->     <backgroundColor>fffff</backgroundColor>
+DIFF:     <desLabelRejeitar>Rejeitar</desLabelRejeitar>
+ -->     <textAlign>CENTER</textAlign>
+DIFF:     <desRotAprovado>SEGUE_ETAPA(SOLICITACAO_DEFERIDA,I)</desRotAprovado>
+ -->     <fontSize>SMALL</fontSize>
+DIFF:     <roteamento>[{&quot;tipo&quot;:&quot;CONDICIONAL&quot;,&quot;nome&quot;:&quot;&quot;,&quot;id&quot;:&quot;18&quot;,&quot;roteamentos&quot;:[{&quot;se&quot;:{},&quot;fimSe&quot;:{},&quot;condicao&quot;:{&quot;nome&quot;:&quot;Solicitar\nAjustes&quot;,&quot;expressao&quot;:&quot;$CHECK_ANALISE_ACAO == \&quot;Solicitar Ajustes\&quot; || $CHECK_ANALISE_ACAO == \&quot;Enviar Recomendações/Informações\&quot;&quot;,&quot;id&quot;:&quot;20&quot;},&quot;segueEtapa&quot;:{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;id&quot;:&quot;20&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;20&quot;},&quot;rotaPadrao&quot;:false,&quot;nome&quot;:&quot;&quot;,&quot;entao&quot;:{},&quot;id&quot;:&quot;20&quot;},{&quot;se&quot;:{},&quot;fimSe&quot;:{},&quot;condicao&quot;:{&quot;nome&quot;:&quot;Enviar\nResposta com\nIndeferimento&quot;,&quot;expressao&quot;:&quot;$CHECK_ANALISE_ACAO == \&quot;Recusar Solicitação\&quot;&quot;,&quot;id&quot;:&quot;25&quot;},&quot;segueEtapa&quot;:{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;SOLICITACAO_INDEFERIDA&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;id&quot;:&quot;25&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;25&quot;},&quot;rotaPadrao&quot;:false,&quot;nome&quot;:&quot;&quot;,&quot;entao&quot;:{},&quot;id&quot;:&quot;25&quot;}],&quot;acao&quot;:&quot;REJEICAO&quot;},{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Enviar\nResposta com\nDeferimento\n&quot;,&quot;id&quot;:&quot;23&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;SOLICITACAO_DEFERIDA&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;id&quot;:&quot;23&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;23&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:     <desRotRejeitado>SE ($CHECK_ANALISE_ACAO == &quot;Solicitar Ajustes&quot; || $CHECK_ANALISE_ACAO == &quot;Enviar Recomendações/Informações&quot;) ENTAO
+ -->     <mask></mask>
+DIFF: 	SEGUE_ETAPA(ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO,I)
+ -->     <history>false</history>
+DIFF: FIM_SE
+ -->   </beans.CampoVO>
+DIFF: SE ($CHECK_ANALISE_ACAO == &quot;Recusar Solicitação&quot;) ENTAO
+ -->   <beans.CampoVO>
+DIFF: 	SEGUE_ETAPA(SOLICITACAO_INDEFERIDA,I)
+ -->     <id>
+DIFF: FIM_SE</desRotRejeitado>
+ -->       <codCampo>36</codCampo>
+DIFF:     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+ -->       <codForm>372</codForm>
+DIFF:     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+ -->       <codVersao>2</codVersao>
+DIFF:     <ideAviso>N</ideAviso>
+ -->     </id>
+DIFF:     <ideAvisoAtraso>N</ideAvisoAtraso>
+ -->     <altura>0</altura>
+DIFF:     <ideAvisoLider>N</ideAvisoLider>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <ideConcentradora>N</ideConcentradora>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     <ideFormatoEmail>H</ideFormatoEmail>
+ -->     <desAjuda></desAjuda>
+DIFF:     <ideLinkEmail>N</ideLinkEmail>
+ -->     <desLabel>CEP</desLabel>
+DIFF:     <idePDFAprova>N</idePDFAprova>
+ -->     <desNome>REQ_END_CEP</desNome>
+DIFF:     <idePDFRejeita>N</idePDFRejeita>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <ideTipoEmail>C</ideTipoEmail>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:     <ideTpEscalonar></ideTpEscalonar>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     <ideTpRoteamento></ideTpRoteamento>
+ -->     <ideMascara>N</ideMascara>
+DIFF:     <nomClasseAprova>com.lecom.workflow.integracao.balcaodigital.EfetivaAcaoAnalise</nomClasseAprova>
+ -->     <idePesquisavel>N</idePesquisavel>
+DIFF:     <permissaoGrupos></permissaoGrupos>
+ -->     <ideRepeticao>N</ideRepeticao>
+DIFF:     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+ -->     <ideResultado>N</ideResultado>
+DIFF:     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+ -->     <ideStatus>A</ideStatus>
+DIFF:     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+ -->     <ideTipo>S</ideTipo>
+DIFF:     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+ -->     <largura>0</largura>
+DIFF:     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+ -->     <numColunas>0</numColunas>
+DIFF:     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+ -->     <numGrupo>0</numGrupo>
+DIFF:     <tituloEtapa>Analisar Solicitação</tituloEtapa>
+ -->     <numIndice>10</numIndice>
+DIFF:     <vlrAlerta>0</vlrAlerta>
+ -->     <numLinhaGrupo>0</numLinhaGrupo>
+DIFF:     <vlrAlerta2>0</vlrAlerta2>
+ -->     <numOrdem>10</numOrdem>
+DIFF:     <vlrAtraso1>0</vlrAtraso1>
+ -->     <numRepeticao>0</numRepeticao>
+DIFF:     <vlrAtraso2>0</vlrAtraso2>
+ -->     <numTamanho>10</numTamanho>
+DIFF:     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+ -->     <prefixo></prefixo>
+DIFF:     <vlrEscalonamento>0</vlrEscalonamento>
+ -->     <quebraLinha>N</quebraLinha>
+DIFF:     <vlrHibernacao>0</vlrHibernacao>
+ -->     <codigoUsuario>0</codigoUsuario>
+DIFF:     <vlrTempLimGest>0</vlrTempLimGest>
+ -->     <fontColor>FFFFFF</fontColor>
+DIFF:     <idDiagrama>9</idDiagrama>
+ -->     <backgroundColor>000000</backgroundColor>
+DIFF:     <phaseNameExportacao>Análise</phaseNameExportacao>
+ -->     <valueWhenChecked>[null]</valueWhenChecked>
+DIFF:     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+ -->     <mask>99999-999</mask>
+DIFF:       <initialized>false</initialized>
+ -->     <history>false</history>
+DIFF:       <owner class="beans.EtapaVO" reference="../.."/>
+ -->   </beans.CampoVO>
+DIFF:       <cachedSize>-1</cachedSize>
+ -->   <beans.CampoVO>
+DIFF:       <role>beans.EtapaVO.javascripts</role>
+ -->     <id>
+DIFF:       <key class="beans.EtapaKeyVO" reference="../../id"/>
+ -->       <codCampo>19</codCampo>
+DIFF:       <dirty>false</dirty>
+ -->       <codForm>372</codForm>
+DIFF:       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+ -->       <codVersao>2</codVersao>
+DIFF:     </javascripts>
+ -->     </id>
+DIFF:     <typeExecution>MANUAL</typeExecution>
+ -->     <altura>0</altura>
+DIFF:     <loop>false</loop>
+ -->     <codArquivo>0</codArquivo>
+DIFF:     <approvalLoopExpression></approvalLoopExpression>
+ -->     <codCampoPai>0</codCampoPai>
+DIFF:     <rejectionLoopExpression></rejectionLoopExpression>
+ -->     <desAjuda></desAjuda>
+DIFF:     <script>false</script>
+ -->     <desLabel>UF</desLabel>
+DIFF:     <expressionDynamicApproval></expressionDynamicApproval>
+ -->     <desNome>REQ_END_UF</desNome>
+DIFF:     <expressionDynamicRejection></expressionDynamicRejection>
+ -->     <idAgrupamentoGrid></idAgrupamentoGrid>
+DIFF:     <publicForm>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:       <active>false</active>
+ -->     <ideCampoRepeticaoBloco>0</ideCampoRepeticaoBloco>
+DIFF:     </publicForm>
+ -->     <ideMascara>N</ideMascara>
+DIFF:   </beans.EtapaVO>
+ -->     <idePesquisavel>S</idePesquisavel>
+DIFF: </list> -->     <ideRepeticao>N</ideRepeticao>

@@ -1,0 +1,16 @@
+DIFF: <linked-list>
+ --> <list>
+DIFF:   <linked-hash-map>
+ -->   <br.com.lecom.workflow.exportacaoimportacao.formulariofuncao.dto.FormularioFuncaoDTO>
+DIFF:     <entry>
+ -->     <processId>372</processId>
+DIFF:       <string>name</string>
+ -->     <version>2</version>
+DIFF:       <string></string>
+ -->     <funcaoId>183</funcaoId>
+DIFF:     </entry>
+ -->     <desFuncao>Gestor Blcd Fio</desFuncao>
+DIFF:     <entry>
+ -->   </br.com.lecom.workflow.exportacaoimportacao.formulariofuncao.dto.FormularioFuncaoDTO>
+DIFF:       <string>identifier</string>
+ --> </list>

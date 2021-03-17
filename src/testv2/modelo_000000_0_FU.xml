@@ -1,0 +1,11 @@
+<list>
+  <beans.FormularioUsuarioVO>
+    <id>
+      <codForm>372</codForm>
+      <codUsuario>3</codUsuario>
+      <codVersao>2</codVersao>
+    </id>
+    <ideCampoEspecial>N</ideCampoEspecial>
+    <idePesquisa>P</idePesquisa>
+  </beans.FormularioUsuarioVO>
+</list>

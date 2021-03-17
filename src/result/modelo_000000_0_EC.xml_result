@@ -1,0 +1,955 @@
+Igual: <list>
+DIFF:   <beans.EtapaCampoVO>
+ -->   <beans.EtapaVO>
+Igual:     <id>
+DIFF:       <codCampo>1</codCampo>
+ -->       <codEtapa>1</codEtapa>
+DIFF:       <codEtapa>1</codEtapa>
+ -->       <codForm>372</codForm>
+DIFF:       <codForm>372</codForm>
+ -->       <codVersao>2</codVersao>
+DIFF:       <codVersao>1</codVersao>
+ -->     </id>
+DIFF:     </id>
+ -->     <codEscalonar></codEscalonar>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <codRoteamento></codRoteamento>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <codTipoEtapa>2</codTipoEtapa>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <codUrlRejeita>0</codUrlRejeita>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <desAjudaAprovar> </desAjudaAprovar>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <desEtapa>CANCELAR_SOLICITACAO</desEtapa>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <desLabelAprovar>Aprovar</desLabelAprovar>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <desLabelRejeitar> </desLabelRejeitar>
+DIFF:     <relacao></relacao>
+ -->     <desRotAprovado> </desRotAprovado>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <roteamento>[]</roteamento>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <desRotRejeitado> </desRotRejeitado>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <ideAviso>N</ideAviso>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <ideAvisoAtraso>N</ideAvisoAtraso>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <ideAvisoLider>N</ideAvisoLider>
+DIFF:     <id>
+ -->     <ideConcentradora>N</ideConcentradora>
+DIFF:       <codCampo>2</codCampo>
+ -->     <ideFormatoEmail>H</ideFormatoEmail>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <ideLinkEmail>N</ideLinkEmail>
+DIFF:       <codForm>372</codForm>
+ -->     <idePDFAprova>N</idePDFAprova>
+DIFF:       <codVersao>1</codVersao>
+ -->     <idePDFRejeita>N</idePDFRejeita>
+DIFF:     </id>
+ -->     <ideTipoEmail>N</ideTipoEmail>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <ideTpEscalonar></ideTpEscalonar>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <ideTpRoteamento></ideTpRoteamento>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <permissaoGrupos></permissaoGrupos>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <textoAvisoEtapaFinalRejeitado>Esta solicitação foi cancelada pelo solicitante.</textoAvisoEtapaFinalRejeitado>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+DIFF:     <relacao></relacao>
+ -->     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <tituloEtapa>Cancelar Solicitação</tituloEtapa>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <vlrAlerta>0</vlrAlerta>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <vlrAlerta2>0</vlrAlerta2>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <vlrAtraso1>0</vlrAtraso1>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <vlrAtraso2>0</vlrAtraso2>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <vlrEscalonamento>0</vlrEscalonamento>
+DIFF:     <id>
+ -->     <vlrHibernacao>0</vlrHibernacao>
+DIFF:       <codCampo>3</codCampo>
+ -->     <vlrTempLimGest>0</vlrTempLimGest>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <idDiagrama>12</idDiagrama>
+DIFF:       <codForm>372</codForm>
+ -->     <phaseNameExportacao>Finalização</phaseNameExportacao>
+DIFF:       <codVersao>1</codVersao>
+ -->     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+DIFF:     </id>
+ -->       <initialized>false</initialized>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->       <owner class="beans.EtapaVO" reference="../.."/>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->       <cachedSize>-1</cachedSize>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->       <role>beans.EtapaVO.javascripts</role>
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <key class="beans.EtapaKeyVO" reference="../../id"/>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->       <dirty>false</dirty>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     </javascripts>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <typeExecution>MANUAL</typeExecution>
+DIFF:     <relacao></relacao>
+ -->     <loop>false</loop>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <script>false</script>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <publicForm>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->       <active>true</active>
+DIFF:     <listaEtapaCampoLupa/>
+ -->       <publicFormUser>3</publicFormUser>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     </publicForm>
+DIFF:   </beans.EtapaCampoVO>
+ -->   </beans.EtapaVO>
+DIFF:   <beans.EtapaCampoVO>
+ -->   <beans.EtapaVO>
+Igual:     <id>
+DIFF:       <codCampo>4</codCampo>
+ -->       <codEtapa>2</codEtapa>
+DIFF:       <codEtapa>1</codEtapa>
+ -->       <codForm>372</codForm>
+DIFF:       <codForm>372</codForm>
+ -->       <codVersao>2</codVersao>
+DIFF:       <codVersao>1</codVersao>
+ -->     </id>
+DIFF:     </id>
+ -->     <codEscalonar></codEscalonar>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <codRoteamento></codRoteamento>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <codTipoEtapa>0</codTipoEtapa>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <codUrlRejeita>0</codUrlRejeita>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <desEtapa>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</desEtapa>
+DIFF:     <ideManterValorLista>N</ideManterValorLista>
+ -->     <desLabelAprovar>Reenviar Solicitação</desLabelAprovar>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <desLabelRejeitar>Cancelar Solicitação</desLabelRejeitar>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <desRotAprovado>SEGUE_ETAPA(ANALISAR_SOLICITACAO,UG,$V_GRUPO_ATENDENTE)</desRotAprovado>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <roteamento>[{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;&quot;,&quot;id&quot;:&quot;15&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;CANCELAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;USUARIO_LOGADO&quot;,&quot;id&quot;:&quot;15&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;15&quot;}],&quot;acao&quot;:&quot;REJEICAO&quot;},{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Reenviar\nSolicitação\n&quot;,&quot;id&quot;:&quot;34&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ANALISAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;GRUPO&quot;,&quot;id&quot;:&quot;34&quot;,&quot;responsavel&quot;:&quot;$V_GRUPO_ATENDENTE&quot;}],&quot;id&quot;:&quot;34&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+DIFF:     <relacao></relacao>
+ -->     <desRotRejeitado>SEGUE_ETAPA(CANCELAR_SOLICITACAO,M)</desRotRejeitado>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <ideAviso>N</ideAviso>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <ideAvisoAtraso>N</ideAvisoAtraso>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <ideAvisoLider>N</ideAvisoLider>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <ideConcentradora>N</ideConcentradora>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <ideFormatoEmail>H</ideFormatoEmail>
+DIFF:     <id>
+ -->     <ideLinkEmail>N</ideLinkEmail>
+DIFF:       <codCampo>5</codCampo>
+ -->     <idePDFAprova>N</idePDFAprova>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <idePDFRejeita>N</idePDFRejeita>
+DIFF:       <codForm>372</codForm>
+ -->     <ideTipoEmail>C</ideTipoEmail>
+DIFF:       <codVersao>1</codVersao>
+ -->     <ideTpEscalonar></ideTpEscalonar>
+DIFF:     </id>
+ -->     <ideTpRoteamento></ideTpRoteamento>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <permissaoGrupos></permissaoGrupos>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <tituloEtapa>Atender Ajustes e  Complementações da Solicitação</tituloEtapa>
+DIFF:     <relacao></relacao>
+ -->     <vlrAlerta>0</vlrAlerta>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <vlrAlerta2>0</vlrAlerta2>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <vlrAtraso1>0</vlrAtraso1>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <vlrAtraso2>0</vlrAtraso2>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <vlrEscalonamento>0</vlrEscalonamento>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <vlrHibernacao>0</vlrHibernacao>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <vlrTempLimGest>0</vlrTempLimGest>
+DIFF:     <id>
+ -->     <idDiagrama>11</idDiagrama>
+DIFF:       <codCampo>6</codCampo>
+ -->     <phaseNameExportacao>Solicitação</phaseNameExportacao>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+DIFF:       <codForm>372</codForm>
+ -->       <initialized>false</initialized>
+DIFF:       <codVersao>1</codVersao>
+ -->       <owner class="beans.EtapaVO" reference="../.."/>
+DIFF:     </id>
+ -->       <cachedSize>-1</cachedSize>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->       <role>beans.EtapaVO.javascripts</role>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->       <key class="beans.EtapaKeyVO" reference="../../id"/>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->       <dirty>false</dirty>
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     </javascripts>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <typeExecution>MANUAL</typeExecution>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <loop>false</loop>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <approvalLoopExpression></approvalLoopExpression>
+DIFF:     <relacao></relacao>
+ -->     <rejectionLoopExpression></rejectionLoopExpression>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <script>false</script>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <expressionDynamicApproval></expressionDynamicApproval>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <expressionDynamicRejection></expressionDynamicRejection>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <publicForm>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->       <active>true</active>
+DIFF:   </beans.EtapaCampoVO>
+ -->       <publicFormUser>3</publicFormUser>
+DIFF:   <beans.EtapaCampoVO>
+ -->     </publicForm>
+DIFF:     <id>
+ -->   </beans.EtapaVO>
+DIFF:       <codCampo>7</codCampo>
+ -->   <beans.EtapaVO>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <id>
+DIFF:       <codForm>372</codForm>
+ -->       <codEtapa>3</codEtapa>
+DIFF:       <codVersao>1</codVersao>
+ -->       <codForm>372</codForm>
+DIFF:     </id>
+ -->       <codVersao>2</codVersao>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     </id>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <codEscalonar></codEscalonar>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <codRoteamento></codRoteamento>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <codTipoEtapa>2</codTipoEtapa>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <codUrlRejeita>0</codUrlRejeita>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <desAjudaAprovar> </desAjudaAprovar>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <desEtapa>SOLICITACAO_DEFERIDA</desEtapa>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <desLabelAprovar>Aprovar</desLabelAprovar>
+DIFF:     <relacao></relacao>
+ -->     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <desLabelRejeitar> </desLabelRejeitar>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <desRotAprovado> </desRotAprovado>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <roteamento>[]</roteamento>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <desRotRejeitado> </desRotRejeitado>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <ideAviso>N</ideAviso>
+DIFF:     <id>
+ -->     <ideAvisoAtraso>N</ideAvisoAtraso>
+DIFF:       <codCampo>8</codCampo>
+ -->     <ideAvisoLider>N</ideAvisoLider>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <ideConcentradora>N</ideConcentradora>
+DIFF:       <codForm>372</codForm>
+ -->     <ideFormatoEmail>H</ideFormatoEmail>
+DIFF:       <codVersao>1</codVersao>
+ -->     <ideLinkEmail>N</ideLinkEmail>
+DIFF:     </id>
+ -->     <idePDFAprova>N</idePDFAprova>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <idePDFRejeita>N</idePDFRejeita>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <ideTipoEmail>N</ideTipoEmail>
+DIFF:     <ideInicializa></ideInicializa>
+ -->     <ideTpEscalonar></ideTpEscalonar>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <ideTpRoteamento></ideTpRoteamento>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <permissaoGrupos></permissaoGrupos>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <textoAvisoEtapaFinalAprovado>Sua solicitação foi deferida! &#xd;
+DIFF:     <ideRefresh>N</ideRefresh>
+ --> Verifique o detalhamento abaixo para mais informações.</textoAvisoEtapaFinalAprovado>
+DIFF:     <ideStatus>N</ideStatus>
+ -->     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+DIFF:     <relacao></relacao>
+ -->     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <tituloEtapa>Solicitação Deferida</tituloEtapa>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <vlrAlerta>0</vlrAlerta>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <vlrAlerta2>0</vlrAlerta2>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <vlrAtraso1>0</vlrAtraso1>
+DIFF:     <id>
+ -->     <vlrAtraso2>0</vlrAtraso2>
+DIFF:       <codCampo>9</codCampo>
+ -->     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <vlrEscalonamento>0</vlrEscalonamento>
+DIFF:       <codForm>372</codForm>
+ -->     <vlrHibernacao>0</vlrHibernacao>
+DIFF:       <codVersao>1</codVersao>
+ -->     <vlrTempLimGest>0</vlrTempLimGest>
+DIFF:     </id>
+ -->     <idDiagrama>22</idDiagrama>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <phaseNameExportacao>Finalização</phaseNameExportacao>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->       <initialized>false</initialized>
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <owner class="beans.EtapaVO" reference="../.."/>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->       <cachedSize>-1</cachedSize>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->       <role>beans.EtapaVO.javascripts</role>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->       <key class="beans.EtapaKeyVO" reference="../../id"/>
+DIFF:     <ideStatus>R</ideStatus>
+ -->       <dirty>false</dirty>
+DIFF:     <relacao></relacao>
+ -->       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+DIFF:     <vlrValor> </vlrValor>
+ -->     </javascripts>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <typeExecution>MANUAL</typeExecution>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <loop>false</loop>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <script>false</script>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <publicForm>
+DIFF:   </beans.EtapaCampoVO>
+ -->       <active>true</active>
+DIFF:   <beans.EtapaCampoVO>
+ -->       <publicFormUser>3</publicFormUser>
+DIFF:     <id>
+ -->     </publicForm>
+DIFF:       <codCampo>10</codCampo>
+ -->   </beans.EtapaVO>
+DIFF:       <codEtapa>1</codEtapa>
+ -->   <beans.EtapaVO>
+DIFF:       <codForm>372</codForm>
+ -->     <id>
+DIFF:       <codVersao>1</codVersao>
+ -->       <codEtapa>4</codEtapa>
+DIFF:     </id>
+ -->       <codForm>372</codForm>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->       <codVersao>2</codVersao>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     </id>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <codEscalonar></codEscalonar>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <codRoteamento></codRoteamento>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <codTipoEtapa>2</codTipoEtapa>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <codUrlRejeita>0</codUrlRejeita>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <desAjudaAprovar> </desAjudaAprovar>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <desEtapa>SOLICITACAO_INDEFERIDA</desEtapa>
+DIFF:     <relacao></relacao>
+ -->     <desLabelAprovar>Aprovar</desLabelAprovar>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <desLabelRejeitar> </desLabelRejeitar>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <desRotAprovado> </desRotAprovado>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <roteamento>[]</roteamento>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <desRotRejeitado> </desRotRejeitado>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+DIFF:     <id>
+ -->     <ideAviso>N</ideAviso>
+DIFF:       <codCampo>11</codCampo>
+ -->     <ideAvisoAtraso>N</ideAvisoAtraso>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <ideAvisoLider>N</ideAvisoLider>
+DIFF:       <codForm>372</codForm>
+ -->     <ideConcentradora>N</ideConcentradora>
+DIFF:       <codVersao>1</codVersao>
+ -->     <ideFormatoEmail>H</ideFormatoEmail>
+DIFF:     </id>
+ -->     <ideLinkEmail>N</ideLinkEmail>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <idePDFAprova>N</idePDFAprova>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <idePDFRejeita>N</idePDFRejeita>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <ideTipoEmail>N</ideTipoEmail>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <ideTpEscalonar></ideTpEscalonar>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <ideTpRoteamento></ideTpRoteamento>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <permissaoGrupos></permissaoGrupos>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <textoAvisoEtapaFinalRejeitado>Sua solicitação foi indeferida. &#xd;
+DIFF:     <relacao></relacao>
+ --> Verifique o detalhamento abaixo para mais informações.</textoAvisoEtapaFinalRejeitado>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <tituloEtapa>Solicitação Indeferida</tituloEtapa>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <vlrAlerta>0</vlrAlerta>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <vlrAlerta2>0</vlrAlerta2>
+DIFF:     <id>
+ -->     <vlrAtraso1>0</vlrAtraso1>
+DIFF:       <codCampo>12</codCampo>
+ -->     <vlrAtraso2>0</vlrAtraso2>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+DIFF:       <codForm>372</codForm>
+ -->     <vlrEscalonamento>0</vlrEscalonamento>
+DIFF:       <codVersao>1</codVersao>
+ -->     <vlrHibernacao>0</vlrHibernacao>
+DIFF:     </id>
+ -->     <vlrTempLimGest>0</vlrTempLimGest>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <idDiagrama>24</idDiagrama>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <phaseNameExportacao>Finalização</phaseNameExportacao>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <initialized>false</initialized>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->       <owner class="beans.EtapaVO" reference="../.."/>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->       <cachedSize>-1</cachedSize>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->       <role>beans.EtapaVO.javascripts</role>
+DIFF:     <ideStatus>R</ideStatus>
+ -->       <key class="beans.EtapaKeyVO" reference="../../id"/>
+DIFF:     <relacao></relacao>
+ -->       <dirty>false</dirty>
+DIFF:     <vlrValor> </vlrValor>
+ -->       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     </javascripts>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <typeExecution>MANUAL</typeExecution>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <loop>false</loop>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <script>false</script>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <publicForm>
+DIFF:   <beans.EtapaCampoVO>
+ -->       <active>true</active>
+DIFF:     <id>
+ -->       <publicFormUser>3</publicFormUser>
+DIFF:       <codCampo>13</codCampo>
+ -->     </publicForm>
+DIFF:       <codEtapa>1</codEtapa>
+ -->   </beans.EtapaVO>
+DIFF:       <codForm>372</codForm>
+ -->   <beans.EtapaVO>
+DIFF:       <codVersao>1</codVersao>
+ -->     <id>
+DIFF:     </id>
+ -->       <codEtapa>6</codEtapa>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->       <codForm>372</codForm>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->       <codVersao>2</codVersao>
+DIFF:     <ideInicializa></ideInicializa>
+ -->     </id>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <codEscalonar></codEscalonar>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <codRoteamento></codRoteamento>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <codTipoEtapa>1</codTipoEtapa>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <codUrlRejeita>0</codUrlRejeita>
+DIFF:     <ideStatus>N</ideStatus>
+ -->     <desEtapa>INFORMAR_DADOS_DA_SOLICITACAO</desEtapa>
+DIFF:     <relacao></relacao>
+ -->     <desLabelAprovar>Enviar para análise</desLabelAprovar>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <desLabelRejeitar>Cancelar solicitação</desLabelRejeitar>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <desRotAprovado>SEGUE_ETAPA(ANALISAR_SOLICITACAO,UG,$V_GRUPO_ATENDENTE)</desRotAprovado>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <roteamento>[{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;&quot;,&quot;id&quot;:&quot;42&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;CANCELAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;USUARIO_LOGADO&quot;,&quot;id&quot;:&quot;42&quot;,&quot;responsavel&quot;:&quot;&quot;}],&quot;id&quot;:&quot;42&quot;}],&quot;acao&quot;:&quot;REJEICAO&quot;},{&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;nome&quot;:&quot;Enviar\nSolicitação\n&quot;,&quot;id&quot;:&quot;10&quot;,&quot;roteamentos&quot;:[{&quot;etapas&quot;:[{&quot;etapa&quot;:&quot;ANALISAR_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;GRUPO&quot;,&quot;id&quot;:&quot;10&quot;,&quot;responsavel&quot;:&quot;$V_GRUPO_ATENDENTE&quot;}],&quot;id&quot;:&quot;10&quot;}],&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <desRotRejeitado>SEGUE_ETAPA(CANCELAR_SOLICITACAO,M)</desRotRejeitado>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+DIFF:     <id>
+ -->     <ideAviso>N</ideAviso>
+DIFF:       <codCampo>14</codCampo>
+ -->     <ideAvisoAtraso>N</ideAvisoAtraso>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <ideAvisoLider>N</ideAvisoLider>
+DIFF:       <codForm>372</codForm>
+ -->     <ideConcentradora>N</ideConcentradora>
+DIFF:       <codVersao>1</codVersao>
+ -->     <ideFormatoEmail>H</ideFormatoEmail>
+DIFF:     </id>
+ -->     <ideLinkEmail>N</ideLinkEmail>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <idePDFAprova>N</idePDFAprova>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <idePDFRejeita>N</idePDFRejeita>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <ideTipoEmail>C</ideTipoEmail>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <ideTpEscalonar></ideTpEscalonar>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <ideTpRoteamento>I</ideTpRoteamento>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <permissaoGrupos></permissaoGrupos>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+DIFF:     <relacao></relacao>
+ -->     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <tituloEtapa>Informar Dados da Solicitação</tituloEtapa>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <vlrAlerta>0</vlrAlerta>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <vlrAlerta2>0</vlrAlerta2>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <vlrAtraso1>0</vlrAtraso1>
+DIFF:     <id>
+ -->     <vlrAtraso2>0</vlrAtraso2>
+DIFF:       <codCampo>15</codCampo>
+ -->     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <vlrEscalonamento>0</vlrEscalonamento>
+DIFF:       <codForm>372</codForm>
+ -->     <vlrHibernacao>0</vlrHibernacao>
+DIFF:       <codVersao>1</codVersao>
+ -->     <vlrTempLimGest>0</vlrTempLimGest>
+DIFF:     </id>
+ -->     <idDiagrama>7</idDiagrama>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <phaseNameExportacao>Solicitação</phaseNameExportacao>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->       <initialized>false</initialized>
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <owner class="beans.EtapaVO" reference="../.."/>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->       <cachedSize>-1</cachedSize>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->       <role>beans.EtapaVO.javascripts</role>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->       <key class="beans.EtapaKeyVO" reference="../../id"/>
+DIFF:     <ideStatus>R</ideStatus>
+ -->       <dirty>false</dirty>
+DIFF:     <relacao></relacao>
+ -->       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+DIFF:     <vlrValor> </vlrValor>
+ -->     </javascripts>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <typeExecution>MANUAL</typeExecution>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <loop>false</loop>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <approvalLoopExpression></approvalLoopExpression>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <rejectionLoopExpression></rejectionLoopExpression>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <script>false</script>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <expressionDynamicApproval></expressionDynamicApproval>
+DIFF:     <id>
+ -->     <expressionDynamicRejection></expressionDynamicRejection>
+DIFF:       <codCampo>16</codCampo>
+ -->     <publicForm>
+DIFF:       <codEtapa>1</codEtapa>
+ -->       <active>true</active>
+DIFF:       <codForm>372</codForm>
+ -->       <publicFormUser>3</publicFormUser>
+DIFF:       <codVersao>1</codVersao>
+ -->     </publicForm>
+DIFF:     </id>
+ -->   </beans.EtapaVO>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->   <beans.EtapaVO>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <id>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->       <codEtapa>7</codEtapa>
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <codForm>372</codForm>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->       <codVersao>2</codVersao>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     </id>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <codEscalonar></codEscalonar>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <codRoteamento></codRoteamento>
+DIFF:     <relacao></relacao>
+ -->     <codTipoEtapa>0</codTipoEtapa>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <codUrlRejeita>0</codUrlRejeita>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <desEtapa>ANALISAR_SOLICITACAO</desEtapa>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <desLabelAprovar>Aceitar Solicitação</desLabelAprovar>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <desLabelRejeitar>Rejeitar</desLabelRejeitar>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <desRotAprovado>SEGUE_ETAPA(SOLICITACAO_DEFERIDA,I)</desRotAprovado>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <roteamento>[{&quot;id&quot;:&quot;18&quot;,&quot;nome&quot;:&quot;&quot;,&quot;roteamentos&quot;:[{&quot;id&quot;:&quot;20&quot;,&quot;nome&quot;:&quot;&quot;,&quot;se&quot;:{},&quot;condicao&quot;:{&quot;id&quot;:&quot;20&quot;,&quot;nome&quot;:&quot;Solicitar\nAjustes&quot;,&quot;expressao&quot;:&quot;$CHECK_ANALISE_ACAO \u003d\u003d \&quot;Solicitar Ajustes\&quot; || $CHECK_ANALISE_ACAO \u003d\u003d \&quot;Enviar Recomendações/Informações\&quot;&quot;},&quot;entao&quot;:{},&quot;segueEtapa&quot;:{&quot;id&quot;:&quot;20&quot;,&quot;etapas&quot;:[{&quot;id&quot;:&quot;20&quot;,&quot;etapa&quot;:&quot;ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;responsavel&quot;:&quot;&quot;}]},&quot;fimSe&quot;:{},&quot;rotaPadrao&quot;:false},{&quot;id&quot;:&quot;25&quot;,&quot;nome&quot;:&quot;&quot;,&quot;se&quot;:{},&quot;condicao&quot;:{&quot;id&quot;:&quot;25&quot;,&quot;nome&quot;:&quot;Enviar\nResposta com\nIndeferimento&quot;,&quot;expressao&quot;:&quot;$CHECK_ANALISE_ACAO \u003d\u003d \&quot;Recusar Solicitação\&quot;&quot;},&quot;entao&quot;:{},&quot;segueEtapa&quot;:{&quot;id&quot;:&quot;25&quot;,&quot;etapas&quot;:[{&quot;id&quot;:&quot;25&quot;,&quot;etapa&quot;:&quot;SOLICITACAO_INDEFERIDA&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;responsavel&quot;:&quot;&quot;}]},&quot;fimSe&quot;:{},&quot;rotaPadrao&quot;:false}],&quot;tipo&quot;:&quot;CONDICIONAL&quot;,&quot;acao&quot;:&quot;REJEICAO&quot;},{&quot;id&quot;:&quot;23&quot;,&quot;nome&quot;:&quot;Enviar\nResposta com\nDeferimento\n&quot;,&quot;roteamentos&quot;:[{&quot;id&quot;:&quot;23&quot;,&quot;etapas&quot;:[{&quot;id&quot;:&quot;23&quot;,&quot;etapa&quot;:&quot;SOLICITACAO_DEFERIDA&quot;,&quot;tipoResponsavel&quot;:&quot;INICIADOR&quot;,&quot;responsavel&quot;:&quot;&quot;}]}],&quot;tipo&quot;:&quot;TAREFA&quot;,&quot;acao&quot;:&quot;APROVACAO&quot;}]</roteamento>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <desRotRejeitado>SE ($CHECK_ANALISE_ACAO == &quot;Solicitar Ajustes&quot; || $CHECK_ANALISE_ACAO == &quot;Enviar Recomendações/Informações&quot;) ENTAO
+DIFF:     <id>
+ --> 	SEGUE_ETAPA(ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO,I)
+DIFF:       <codCampo>17</codCampo>
+ --> FIM_SE
+DIFF:       <codEtapa>1</codEtapa>
+ --> SE ($CHECK_ANALISE_ACAO == &quot;Recusar Solicitação&quot;) ENTAO
+DIFF:       <codForm>372</codForm>
+ --> 	SEGUE_ETAPA(SOLICITACAO_INDEFERIDA,I)
+DIFF:       <codVersao>1</codVersao>
+ --> FIM_SE</desRotRejeitado>
+DIFF:     </id>
+ -->     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <ideAviso>N</ideAviso>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <ideAvisoAtraso>N</ideAvisoAtraso>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <ideAvisoLider>N</ideAvisoLider>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <ideConcentradora>N</ideConcentradora>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <ideFormatoEmail>H</ideFormatoEmail>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <ideLinkEmail>N</ideLinkEmail>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <idePDFAprova>N</idePDFAprova>
+DIFF:     <relacao></relacao>
+ -->     <idePDFRejeita>N</idePDFRejeita>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <ideTipoEmail>C</ideTipoEmail>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <ideTpEscalonar></ideTpEscalonar>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <ideTpRoteamento></ideTpRoteamento>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <nomClasseAprova>com.lecom.workflow.integracao.balcaodigital.EfetivaAcaoAnalise</nomClasseAprova>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <permissaoGrupos></permissaoGrupos>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+DIFF:     <id>
+ -->     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+DIFF:       <codCampo>18</codCampo>
+ -->     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+DIFF:       <codForm>372</codForm>
+ -->     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+DIFF:       <codVersao>1</codVersao>
+ -->     <tituloEtapa>Analisar Solicitação</tituloEtapa>
+DIFF:     </id>
+ -->     <vlrAlerta>0</vlrAlerta>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <vlrAtraso1>0</vlrAtraso1>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <vlrAtraso2>0</vlrAtraso2>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <vlrEscalonamento>0</vlrEscalonamento>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <vlrHibernacao>0</vlrHibernacao>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <vlrTempLimGest>0</vlrTempLimGest>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <idDiagrama>9</idDiagrama>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <phaseNameExportacao>Análise</phaseNameExportacao>
+DIFF:     <relacao></relacao>
+ -->     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+DIFF:     <vlrValor> </vlrValor>
+ -->       <initialized>false</initialized>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->       <owner class="beans.EtapaVO" reference="../.."/>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->       <cachedSize>-1</cachedSize>
+DIFF:     <listaEtapaCampoLupa/>
+ -->       <role>beans.EtapaVO.javascripts</role>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->       <key class="beans.EtapaKeyVO" reference="../../id"/>
+DIFF:   </beans.EtapaCampoVO>
+ -->       <dirty>false</dirty>
+DIFF:   <beans.EtapaCampoVO>
+ -->       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+DIFF:     <id>
+ -->     </javascripts>
+DIFF:       <codCampo>19</codCampo>
+ -->     <typeExecution>MANUAL</typeExecution>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <loop>false</loop>
+DIFF:       <codForm>372</codForm>
+ -->     <approvalLoopExpression></approvalLoopExpression>
+DIFF:       <codVersao>1</codVersao>
+ -->     <rejectionLoopExpression></rejectionLoopExpression>
+DIFF:     </id>
+ -->     <script>false</script>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <expressionDynamicApproval></expressionDynamicApproval>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <expressionDynamicRejection></expressionDynamicRejection>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <publicForm>
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <active>false</active>
+DIFF:     <ideManterValorLista>N</ideManterValorLista>
+ -->     </publicForm>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->   </beans.EtapaVO>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->   <beans.EtapaVO>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <id>
+DIFF:     <ideStatus>R</ideStatus>
+ -->       <codEtapa>8</codEtapa>
+DIFF:     <relacao></relacao>
+ -->       <codForm>372</codForm>
+DIFF:     <vlrValor> </vlrValor>
+ -->       <codVersao>2</codVersao>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     </id>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <codEscalonar></codEscalonar>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <codRoteamento></codRoteamento>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <codTipoEtapa>0</codTipoEtapa>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <codUrlRejeita>0</codUrlRejeita>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <desAjudaAprovar> </desAjudaAprovar>
+DIFF:     <id>
+ -->     <desEtapa>DESCONSIDERAR</desEtapa>
+DIFF:       <codCampo>20</codCampo>
+ -->     <desLabelAprovar>Preencher solicitação</desLabelAprovar>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <tipoExibicaoRoteamento>INTEGRANTES</tipoExibicaoRoteamento>
+DIFF:       <codForm>372</codForm>
+ -->     <desLabelRejeitar> </desLabelRejeitar>
+DIFF:       <codVersao>1</codVersao>
+ -->     <desRotAprovado> </desRotAprovado>
+DIFF:     </id>
+ -->     <roteamento>[]</roteamento>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <desRotRejeitado> </desRotRejeitado>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <ideAnexarPlanilhaGridEmail>N</ideAnexarPlanilhaGridEmail>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <ideAprovaEtapaMobile>N</ideAprovaEtapaMobile>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <ideAviso>N</ideAviso>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <ideAvisoAtraso>N</ideAvisoAtraso>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <ideAvisoLider>N</ideAvisoLider>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <ideConcentradora>N</ideConcentradora>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <ideFormatoEmail>H</ideFormatoEmail>
+DIFF:     <relacao></relacao>
+ -->     <ideLinkEmail>N</ideLinkEmail>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <idePDFAprova>N</idePDFAprova>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <idePDFRejeita>N</idePDFRejeita>
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->     <ideTipoEmail>N</ideTipoEmail>
+DIFF:     <listaEtapaCampoLupa/>
+ -->     <ideTpEscalonar></ideTpEscalonar>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->     <ideTpRoteamento></ideTpRoteamento>
+DIFF:   </beans.EtapaCampoVO>
+ -->     <permissaoGrupos></permissaoGrupos>
+DIFF:   <beans.EtapaCampoVO>
+ -->     <textoAvisoEtapaFinalAprovado></textoAvisoEtapaFinalAprovado>
+DIFF:     <id>
+ -->     <textoAvisoEtapaFinalRejeitado></textoAvisoEtapaFinalRejeitado>
+DIFF:       <codCampo>21</codCampo>
+ -->     <textoAvisoExecucaoEtapaAprovar></textoAvisoExecucaoEtapaAprovar>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     <textoAvisoExecucaoEtapaRejeitar></textoAvisoExecucaoEtapaRejeitar>
+DIFF:       <codForm>372</codForm>
+ -->     <tipoAvisoExecucaoEtapaAprovar>PADRAO</tipoAvisoExecucaoEtapaAprovar>
+DIFF:       <codVersao>1</codVersao>
+ -->     <tipoAvisoExecucaoEtapaRejeitar>PADRAO</tipoAvisoExecucaoEtapaRejeitar>
+DIFF:     </id>
+ -->     <tituloEtapa>Desconsiderar</tituloEtapa>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <vlrAlerta>0</vlrAlerta>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <vlrAlerta2>0</vlrAlerta2>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <vlrAtraso1>0</vlrAtraso1>
+DIFF:     <ideLupa>N</ideLupa>
+ -->     <vlrAtraso2>0</vlrAtraso2>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     <vlrAtrasoGestor>0</vlrAtrasoGestor>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->     <vlrEscalonamento>0</vlrEscalonamento>
+DIFF:     <ideRefresh>N</ideRefresh>
+ -->     <vlrHibernacao>0</vlrHibernacao>
+DIFF:     <ideStatus>R</ideStatus>
+ -->     <vlrTempLimGest>0</vlrTempLimGest>
+DIFF:     <relacao></relacao>
+ -->     <idDiagrama>37</idDiagrama>
+DIFF:     <vlrValor> </vlrValor>
+ -->     <phaseNameExportacao>Solicitação</phaseNameExportacao>
+DIFF:     <ideAssociar>N</ideAssociar>
+ -->     <javascripts class="org.hibernate.collection.internal.PersistentBag">
+DIFF:     <sendByEmail>false</sendByEmail>
+ -->       <initialized>false</initialized>
+DIFF:     <listaEtapaCampoLupa/>
+ -->       <owner class="beans.EtapaVO" reference="../.."/>
+DIFF:     <listaEtapaCampoRefresh/>
+ -->       <cachedSize>-1</cachedSize>
+DIFF:   </beans.EtapaCampoVO>
+ -->       <role>beans.EtapaVO.javascripts</role>
+DIFF:   <beans.EtapaCampoVO>
+ -->       <key class="beans.EtapaKeyVO" reference="../../id"/>
+DIFF:     <id>
+ -->       <dirty>false</dirty>
+DIFF:       <codCampo>22</codCampo>
+ -->       <allowLoadOutsideTransaction>false</allowLoadOutsideTransaction>
+DIFF:       <codEtapa>1</codEtapa>
+ -->     </javascripts>
+DIFF:       <codForm>372</codForm>
+ -->     <typeExecution>MANUAL</typeExecution>
+DIFF:       <codVersao>1</codVersao>
+ -->     <loop>false</loop>
+DIFF:     </id>
+ -->     <script>false</script>
+DIFF:     <codigoGrafico>0</codigoGrafico>
+ -->     <expressionDynamicApproval></expressionDynamicApproval>
+DIFF:     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+ -->     <expressionDynamicRejection></expressionDynamicRejection>
+DIFF:     <ideInicializa>S</ideInicializa>
+ -->     <publicForm>
+DIFF:     <ideLupa>N</ideLupa>
+ -->       <active>false</active>
+DIFF:     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+ -->     </publicForm>
+DIFF:     <ideReexecutar>N</ideReexecutar>
+ -->   </beans.EtapaVO>
+DIFF:     <ideRefresh>N</ideRefresh>
+ --> </list>

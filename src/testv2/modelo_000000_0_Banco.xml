@@ -1,0 +1,10 @@
+<list>
+  <beans.BancoVO>
+    <codBanco>1</codBanco>
+    <desArquivo>encrypted</desArquivo>
+    <desBanco>WorkFlow</desBanco>
+    <ideBanco>4</ideBanco>
+    <query>SELECT * FROM INFO</query>
+    <loginUsersPermExportacao></loginUsersPermExportacao>
+  </beans.BancoVO>
+</list>

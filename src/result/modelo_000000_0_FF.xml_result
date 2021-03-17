@@ -1,0 +1,15 @@
+DIFF: <list>
+ --> <beans.FormularioVO>
+DIFF:   <br.com.lecom.workflow.exportacaoimportacao.formulariofuncao.dto.FormularioFuncaoDTO>
+ -->   <hashValue>0</hashValue>
+DIFF:     <processId>372</processId>
+ -->   <id>
+DIFF:     <version>1</version>
+ -->     <codForm>372</codForm>
+DIFF:     <funcaoId>183</funcaoId>
+ -->     <codVersao>2</codVersao>
+DIFF:     <desFuncao>Gestor Blcd Fio</desFuncao>
+ -->   </id>
+DIFF:   </br.com.lecom.workflow.exportacaoimportacao.formulariofuncao.dto.FormularioFuncaoDTO>
+ -->   <dataAtualizacao class="sql-timestamp">2021-03-16 23:37:19.273</dataAtualizacao>
+DIFF: </list> -->   <desAjuda> </desAjuda>

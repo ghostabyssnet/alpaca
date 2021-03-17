@@ -1,0 +1,25 @@
+<list>
+  <br.com.docsys.ecm.client.dto.template.DocTemplate>
+    <id>
+      <id>1</id>
+    </id>
+    <name>Template Padrão</name>
+    <desc>Template Padrão criado pelo BPM</desc>
+    <identificador>TEMPLATE_0</identificador>
+    <fields/>
+    <categoria>
+      <br.com.docsys.ecm.client.dto.template.Categoria>
+        <id>
+          <id>1</id>
+        </id>
+        <nome>Categoria Padrão</nome>
+        <identificador>CATEGORIA_0</identificador>
+        <desc>Categoria Padrão criada pelo BPM</desc>
+        <root>true</root>
+      </br.com.docsys.ecm.client.dto.template.Categoria>
+    </categoria>
+    <pdfSignedEnabled>false</pdfSignedEnabled>
+    <allowedTypes/>
+    <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+  </br.com.docsys.ecm.client.dto.template.DocTemplate>
+</list>

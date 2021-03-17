@@ -1,0 +1,299 @@
+Igual: <list>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>646</id>
+Igual:     <profile>
+Igual:       <actorIdentity>jussara.cabral</actorIdentity>
+Igual:       <name>Jussara Cabral</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>647</id>
+Igual:     <profile>
+Igual:       <actorIdentity>ana.marmello</actorIdentity>
+Igual:       <name>Ana Lúcia Miguel Marmello</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>648</id>
+Igual:     <profile>
+Igual:       <actorIdentity>regional.mapa</actorIdentity>
+Igual:       <name>Regional MAPA</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>649</id>
+Igual:     <profile>
+Igual:       <actorIdentity>auditor.mapa</actorIdentity>
+Igual:       <name>Auditor MAPA</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>650</id>
+Igual:     <profile>
+Igual:       <actorIdentity>uhara.mapa</actorIdentity>
+Igual:       <name>Uhara MAPA</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>659</id>
+Igual:     <profile>
+Igual:       <actorIdentity>jesuina.queiroz</actorIdentity>
+Igual:       <name>Jesuina Queiroz</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>660</id>
+Igual:     <profile>
+Igual:       <actorIdentity>cidadao</actorIdentity>
+Igual:       <name>Cidadão</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>661</id>
+Igual:     <profile>
+Igual:       <actorIdentity>tarefa.automatica</actorIdentity>
+Igual:       <name>Tarefa Automática</name>
+Igual:       <accessMode>USER</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:   <br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual:     <id>662</id>
+Igual:     <profile>
+Igual:       <actorIdentity>adm</actorIdentity>
+Igual:       <name>Administrador</name>
+Igual:       <accessMode>ADMIN</accessMode>
+Igual:       <groups/>
+Igual:     </profile>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>EDICAO</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.ProfileDocTemplateAccess>
+Igual: </list>

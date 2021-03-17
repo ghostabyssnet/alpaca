@@ -1,0 +1,15 @@
+<list>
+  <beans.IntegracaoVO>
+    <codIntegracao>551</codIntegracao>
+    <descricaoIntegracao>Integração do CPF Light para o Balcão Digital da FIOCRUZ (implementado na V2.0)</descricaoIntegracao>
+    <modoCadastro>U</modoCadastro>
+    <nomeArquivo>FIOCRUZ_BD_CPFLIGHT.jar</nomeArquivo>
+    <nomeClasse>com.lecom.workflow.integracao.fiocruz.FIOCRUZ_BD_CPFLIGHT</nomeClasse>
+    <nomeIntegracao>FIOCRUZ_BD_CPFLIGHT</nomeIntegracao>
+    <tipoIntegracao>1</tipoIntegracao>
+    <versaoIntegracao>1,0,0</versaoIntegracao>
+    <synchronousExecution>true</synchronousExecution>
+    <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+    <usuariosPermissaoExportacao>adm</usuariosPermissaoExportacao>
+  </beans.IntegracaoVO>
+</list>

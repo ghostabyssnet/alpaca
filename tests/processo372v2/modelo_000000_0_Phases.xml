@@ -1,0 +1,22 @@
+<list>
+  <beans.ProcessPhaseVO>
+    <name>Solicitação</name>
+    <sla>0</sla>
+    <help></help>
+    <position>1</position>
+  </beans.ProcessPhaseVO>
+  <beans.ProcessPhaseVO>
+    <name>Análise</name>
+    <sla>0</sla>
+    <description></description>
+    <help></help>
+    <position>2</position>
+  </beans.ProcessPhaseVO>
+  <beans.ProcessPhaseVO>
+    <name>Finalização</name>
+    <sla>0</sla>
+    <description></description>
+    <help></help>
+    <position>3</position>
+  </beans.ProcessPhaseVO>
+</list>

@@ -1,0 +1,38 @@
+Igual: <list>
+Igual:   <br.com.docsys.ecm.client.dto.GroupDocTemplateAccess>
+Igual:     <id>
+Igual:       <id>163</id>
+Igual:     </id>
+Igual:     <group>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <external>false</external>
+Igual:       <identificador>acesso_lecom_bpm</identificador>
+Igual:     </group>
+Igual:     <docTemplate>
+Igual:       <id>
+Igual:         <id>1</id>
+Igual:       </id>
+Igual:       <name>Template Padrão</name>
+Igual:       <desc>Template Padrão criado pelo BPM</desc>
+Igual:       <identificador>TEMPLATE_0</identificador>
+Igual:       <fields/>
+Igual:       <categoria>
+Igual:         <br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:           <id>
+Igual:             <id>1</id>
+Igual:           </id>
+Igual:           <nome>Categoria Padrão</nome>
+Igual:           <identificador>CATEGORIA_0</identificador>
+Igual:           <desc>Categoria Padrão criada pelo BPM</desc>
+Igual:           <root>true</root>
+Igual:         </br.com.docsys.ecm.client.dto.template.Categoria>
+Igual:       </categoria>
+Igual:       <pdfSignedEnabled>false</pdfSignedEnabled>
+Igual:       <allowedTypes/>
+Igual:       <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+Igual:     </docTemplate>
+Igual:     <accessType>LEITURA</accessType>
+Igual:   </br.com.docsys.ecm.client.dto.GroupDocTemplateAccess>
+Igual: </list>

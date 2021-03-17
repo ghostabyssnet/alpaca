@@ -1,0 +1,18 @@
+Igual: <list>
+DIFF:   <beans.FormularioUsuarioVO>
+ -->   <beans.FormularioTemplateVO>
+Igual:     <id>
+DIFF:       <codForm>372</codForm>
+ -->       <codCampo>42</codCampo>
+DIFF:       <codUsuario>3</codUsuario>
+ -->       <codForm>372</codForm>
+DIFF:       <codVersao>1</codVersao>
+ -->       <codVersao>2</codVersao>
+Igual:     </id>
+DIFF:     <ideCampoEspecial>N</ideCampoEspecial>
+ -->     <codigoTemplateECM>1</codigoTemplateECM>
+DIFF:     <idePesquisa>P</idePesquisa>
+ -->   </beans.FormularioTemplateVO>
+DIFF:   </beans.FormularioUsuarioVO>
+ -->   <beans.FormularioTemplateVO>
+DIFF: </list> -->     <id>

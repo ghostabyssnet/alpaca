@@ -1,0 +1,38 @@
+<list>
+  <br.com.docsys.ecm.client.dto.GroupDocTemplateAccess>
+    <id>
+      <id>163</id>
+    </id>
+    <group>
+      <id>
+        <id>1</id>
+      </id>
+      <external>false</external>
+      <identificador>acesso_lecom_bpm</identificador>
+    </group>
+    <docTemplate>
+      <id>
+        <id>1</id>
+      </id>
+      <name>Template Padrão</name>
+      <desc>Template Padrão criado pelo BPM</desc>
+      <identificador>TEMPLATE_0</identificador>
+      <fields/>
+      <categoria>
+        <br.com.docsys.ecm.client.dto.template.Categoria>
+          <id>
+            <id>1</id>
+          </id>
+          <nome>Categoria Padrão</nome>
+          <identificador>CATEGORIA_0</identificador>
+          <desc>Categoria Padrão criada pelo BPM</desc>
+          <root>true</root>
+        </br.com.docsys.ecm.client.dto.template.Categoria>
+      </categoria>
+      <pdfSignedEnabled>false</pdfSignedEnabled>
+      <allowedTypes/>
+      <maxFileSizeAllowed>80000</maxFileSizeAllowed>
+    </docTemplate>
+    <accessType>LEITURA</accessType>
+  </br.com.docsys.ecm.client.dto.GroupDocTemplateAccess>
+</list>

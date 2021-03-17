@@ -1,0 +1,326 @@
+Igual: <list>
+DIFF:   <beans.JavascriptVO>
+ -->   <beans.EtapaCampoVO>
+DIFF:     <codJavascript>120</codJavascript>
+ -->     <id>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->       <codCampo>1</codCampo>
+DIFF:     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+ -->       <codEtapa>1</codEtapa>
+DIFF:     <tipo>P</tipo>
+ -->       <codForm>372</codForm>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->       <codVersao>2</codVersao>
+DIFF:     <nomeEtapaExportacao>CANCELAR_SOLICITACAO</nomeEtapaExportacao>
+ -->     </id>
+DIFF:     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+ -->     <codigoGrafico>0</codigoGrafico>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+DIFF:   <beans.JavascriptVO>
+ -->     <ideInicializa>S</ideInicializa>
+DIFF:     <codJavascript>413</codJavascript>
+ -->     <ideLupa>N</ideLupa>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+DIFF:     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+ -->     <ideReexecutar>N</ideReexecutar>
+DIFF:     <tipo>P</tipo>
+ -->     <ideRefresh>N</ideRefresh>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <ideStatus>R</ideStatus>
+DIFF:     <nomeEtapaExportacao>CANCELAR_SOLICITACAO</nomeEtapaExportacao>
+ -->     <relacao></relacao>
+DIFF:     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+ -->     <vlrValor> </vlrValor>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideAssociar>N</ideAssociar>
+DIFF:   <beans.JavascriptVO>
+ -->     <sendByEmail>false</sendByEmail>
+DIFF:     <codJavascript>487</codJavascript>
+ -->     <listaEtapaCampoLupa/>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <listaEtapaCampoRefresh/>
+DIFF:     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v1.0.0.js</nomeArquivoJS>
+ -->   </beans.EtapaCampoVO>
+DIFF:     <tipo>P</tipo>
+ -->   <beans.EtapaCampoVO>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <id>
+DIFF:     <nomeEtapaExportacao>CANCELAR_SOLICITACAO</nomeEtapaExportacao>
+ -->       <codCampo>2</codCampo>
+DIFF:     <ordemEtapaExportacao>2</ordemEtapaExportacao>
+ -->       <codEtapa>1</codEtapa>
+DIFF:   </beans.JavascriptVO>
+ -->       <codForm>372</codForm>
+DIFF:   <beans.JavascriptVO>
+ -->       <codVersao>2</codVersao>
+DIFF:     <codJavascript>120</codJavascript>
+ -->     </id>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <codigoGrafico>0</codigoGrafico>
+DIFF:     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+ -->     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+DIFF:     <tipo>P</tipo>
+ -->     <ideInicializa>S</ideInicializa>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <ideLupa>N</ideLupa>
+DIFF:     <nomeEtapaExportacao>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</nomeEtapaExportacao>
+ -->     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+DIFF:     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+ -->     <ideReexecutar>N</ideReexecutar>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideRefresh>N</ideRefresh>
+DIFF:   <beans.JavascriptVO>
+ -->     <ideStatus>R</ideStatus>
+DIFF:     <codJavascript>413</codJavascript>
+ -->     <relacao></relacao>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <vlrValor> </vlrValor>
+DIFF:     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+ -->     <ideAssociar>N</ideAssociar>
+DIFF:     <tipo>P</tipo>
+ -->     <sendByEmail>false</sendByEmail>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <listaEtapaCampoLupa/>
+DIFF:     <nomeEtapaExportacao>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</nomeEtapaExportacao>
+ -->     <listaEtapaCampoRefresh/>
+DIFF:     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+ -->   </beans.EtapaCampoVO>
+DIFF:   </beans.JavascriptVO>
+ -->   <beans.EtapaCampoVO>
+DIFF:   <beans.JavascriptVO>
+ -->     <id>
+DIFF:     <codJavascript>487</codJavascript>
+ -->       <codCampo>3</codCampo>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->       <codEtapa>1</codEtapa>
+DIFF:     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v1.0.0.js</nomeArquivoJS>
+ -->       <codForm>372</codForm>
+DIFF:     <tipo>P</tipo>
+ -->       <codVersao>2</codVersao>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     </id>
+DIFF:     <nomeEtapaExportacao>ATENDERAJUSTES_E_COMPLEMENTACOES_DA_SOLICITACAO</nomeEtapaExportacao>
+ -->     <codigoGrafico>0</codigoGrafico>
+DIFF:     <ordemEtapaExportacao>2</ordemEtapaExportacao>
+ -->     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideInicializa>S</ideInicializa>
+DIFF:   <beans.JavascriptVO>
+ -->     <ideLupa>N</ideLupa>
+DIFF:     <codJavascript>120</codJavascript>
+ -->     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <ideReexecutar>N</ideReexecutar>
+DIFF:     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+ -->     <ideRefresh>N</ideRefresh>
+DIFF:     <tipo>P</tipo>
+ -->     <ideStatus>R</ideStatus>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <relacao></relacao>
+DIFF:     <nomeEtapaExportacao>SOLICITACAO_DEFERIDA</nomeEtapaExportacao>
+ -->     <vlrValor> </vlrValor>
+DIFF:     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+ -->     <ideAssociar>N</ideAssociar>
+DIFF:   </beans.JavascriptVO>
+ -->     <sendByEmail>false</sendByEmail>
+DIFF:   <beans.JavascriptVO>
+ -->     <listaEtapaCampoLupa/>
+DIFF:     <codJavascript>413</codJavascript>
+ -->     <listaEtapaCampoRefresh/>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->   </beans.EtapaCampoVO>
+DIFF:     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+ -->   <beans.EtapaCampoVO>
+DIFF:     <tipo>P</tipo>
+ -->     <id>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->       <codCampo>4</codCampo>
+DIFF:     <nomeEtapaExportacao>SOLICITACAO_DEFERIDA</nomeEtapaExportacao>
+ -->       <codEtapa>1</codEtapa>
+DIFF:     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+ -->       <codForm>372</codForm>
+DIFF:   </beans.JavascriptVO>
+ -->       <codVersao>2</codVersao>
+DIFF:   <beans.JavascriptVO>
+ -->     </id>
+DIFF:     <codJavascript>487</codJavascript>
+ -->     <codigoGrafico>0</codigoGrafico>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+DIFF:     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v1.0.0.js</nomeArquivoJS>
+ -->     <ideInicializa>S</ideInicializa>
+DIFF:     <tipo>P</tipo>
+ -->     <ideLupa>N</ideLupa>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <ideManterValorLista>N</ideManterValorLista>
+DIFF:     <nomeEtapaExportacao>SOLICITACAO_DEFERIDA</nomeEtapaExportacao>
+ -->     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+DIFF:     <ordemEtapaExportacao>2</ordemEtapaExportacao>
+ -->     <ideReexecutar>N</ideReexecutar>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideRefresh>N</ideRefresh>
+DIFF:   <beans.JavascriptVO>
+ -->     <ideStatus>R</ideStatus>
+DIFF:     <codJavascript>120</codJavascript>
+ -->     <relacao></relacao>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <vlrValor> </vlrValor>
+DIFF:     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+ -->     <ideAssociar>N</ideAssociar>
+DIFF:     <tipo>P</tipo>
+ -->     <sendByEmail>false</sendByEmail>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <listaEtapaCampoLupa/>
+DIFF:     <nomeEtapaExportacao>SOLICITACAO_INDEFERIDA</nomeEtapaExportacao>
+ -->     <listaEtapaCampoRefresh/>
+DIFF:     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+ -->   </beans.EtapaCampoVO>
+DIFF:   </beans.JavascriptVO>
+ -->   <beans.EtapaCampoVO>
+DIFF:   <beans.JavascriptVO>
+ -->     <id>
+DIFF:     <codJavascript>413</codJavascript>
+ -->       <codCampo>5</codCampo>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->       <codEtapa>1</codEtapa>
+DIFF:     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+ -->       <codForm>372</codForm>
+DIFF:     <tipo>P</tipo>
+ -->       <codVersao>2</codVersao>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     </id>
+DIFF:     <nomeEtapaExportacao>SOLICITACAO_INDEFERIDA</nomeEtapaExportacao>
+ -->     <codigoGrafico>0</codigoGrafico>
+DIFF:     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+ -->     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideInicializa>S</ideInicializa>
+DIFF:   <beans.JavascriptVO>
+ -->     <ideLupa>N</ideLupa>
+DIFF:     <codJavascript>487</codJavascript>
+ -->     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <ideReexecutar>N</ideReexecutar>
+DIFF:     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v1.0.0.js</nomeArquivoJS>
+ -->     <ideRefresh>N</ideRefresh>
+DIFF:     <tipo>P</tipo>
+ -->     <ideStatus>R</ideStatus>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <relacao></relacao>
+DIFF:     <nomeEtapaExportacao>SOLICITACAO_INDEFERIDA</nomeEtapaExportacao>
+ -->     <vlrValor> </vlrValor>
+DIFF:     <ordemEtapaExportacao>2</ordemEtapaExportacao>
+ -->     <ideAssociar>N</ideAssociar>
+DIFF:   </beans.JavascriptVO>
+ -->     <sendByEmail>false</sendByEmail>
+DIFF:   <beans.JavascriptVO>
+ -->     <listaEtapaCampoLupa/>
+DIFF:     <codJavascript>120</codJavascript>
+ -->     <listaEtapaCampoRefresh/>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->   </beans.EtapaCampoVO>
+DIFF:     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+ -->   <beans.EtapaCampoVO>
+DIFF:     <tipo>P</tipo>
+ -->     <id>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->       <codCampo>6</codCampo>
+DIFF:     <nomeEtapaExportacao>INFORMAR_DADOS_DA_SOLICITACAO</nomeEtapaExportacao>
+ -->       <codEtapa>1</codEtapa>
+DIFF:     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+ -->       <codForm>372</codForm>
+DIFF:   </beans.JavascriptVO>
+ -->       <codVersao>2</codVersao>
+DIFF:   <beans.JavascriptVO>
+ -->     </id>
+DIFF:     <codJavascript>158</codJavascript>
+ -->     <codigoGrafico>0</codigoGrafico>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+DIFF:     <nomeArquivoJS>portal_servicos_functions_v2.0.0.js</nomeArquivoJS>
+ -->     <ideInicializa>S</ideInicializa>
+DIFF:     <tipo>P</tipo>
+ -->     <ideLupa>N</ideLupa>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+DIFF:     <nomeEtapaExportacao>INFORMAR_DADOS_DA_SOLICITACAO</nomeEtapaExportacao>
+ -->     <ideReexecutar>N</ideReexecutar>
+DIFF:     <ordemEtapaExportacao>2</ordemEtapaExportacao>
+ -->     <ideRefresh>N</ideRefresh>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideStatus>R</ideStatus>
+DIFF:   <beans.JavascriptVO>
+ -->     <relacao></relacao>
+DIFF:     <codJavascript>413</codJavascript>
+ -->     <vlrValor> </vlrValor>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <ideAssociar>N</ideAssociar>
+DIFF:     <nomeArquivoJS>formata_ps_v2.0.0.js</nomeArquivoJS>
+ -->     <sendByEmail>false</sendByEmail>
+DIFF:     <tipo>P</tipo>
+ -->     <listaEtapaCampoLupa/>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <listaEtapaCampoRefresh/>
+DIFF:     <nomeEtapaExportacao>INFORMAR_DADOS_DA_SOLICITACAO</nomeEtapaExportacao>
+ -->   </beans.EtapaCampoVO>
+DIFF:     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+ -->   <beans.EtapaCampoVO>
+DIFF:   </beans.JavascriptVO>
+ -->     <id>
+DIFF:   <beans.JavascriptVO>
+ -->       <codCampo>7</codCampo>
+DIFF:     <codJavascript>487</codJavascript>
+ -->       <codEtapa>1</codEtapa>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->       <codForm>372</codForm>
+DIFF:     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v1.0.0.js</nomeArquivoJS>
+ -->       <codVersao>2</codVersao>
+DIFF:     <tipo>P</tipo>
+ -->     </id>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <codigoGrafico>0</codigoGrafico>
+DIFF:     <nomeEtapaExportacao>INFORMAR_DADOS_DA_SOLICITACAO</nomeEtapaExportacao>
+ -->     <ideAplicacaoExterna>N</ideAplicacaoExterna>
+DIFF:     <ordemEtapaExportacao>3</ordemEtapaExportacao>
+ -->     <ideInicializa>S</ideInicializa>
+DIFF:   </beans.JavascriptVO>
+ -->     <ideLupa>N</ideLupa>
+DIFF:   <beans.JavascriptVO>
+ -->     <ideObrigaAprovaRejeita></ideObrigaAprovaRejeita>
+DIFF:     <codJavascript>120</codJavascript>
+ -->     <ideReexecutar>N</ideReexecutar>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->     <ideRefresh>N</ideRefresh>
+DIFF:     <nomeArquivoJS>functions_v3.1.0.js</nomeArquivoJS>
+ -->     <ideStatus>R</ideStatus>
+DIFF:     <tipo>P</tipo>
+ -->     <relacao></relacao>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->     <vlrValor> </vlrValor>
+DIFF:     <nomeEtapaExportacao>ANALISAR_SOLICITACAO</nomeEtapaExportacao>
+ -->     <ideAssociar>N</ideAssociar>
+DIFF:     <ordemEtapaExportacao>0</ordemEtapaExportacao>
+ -->     <sendByEmail>false</sendByEmail>
+DIFF:   </beans.JavascriptVO>
+ -->     <listaEtapaCampoLupa/>
+DIFF:   <beans.JavascriptVO>
+ -->     <listaEtapaCampoRefresh/>
+DIFF:     <codJavascript>487</codJavascript>
+ -->   </beans.EtapaCampoVO>
+DIFF:     <caminho>rotinaJS</caminho>
+ -->   <beans.EtapaCampoVO>
+DIFF:     <nomeArquivoJS>balcaodigital_fiocruz_7svc_v1.0.0.js</nomeArquivoJS>
+ -->     <id>
+DIFF:     <tipo>P</tipo>
+ -->       <codCampo>8</codCampo>
+DIFF:     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+ -->       <codEtapa>1</codEtapa>
+DIFF:     <nomeEtapaExportacao>ANALISAR_SOLICITACAO</nomeEtapaExportacao>
+ -->       <codForm>372</codForm>
+DIFF:     <ordemEtapaExportacao>1</ordemEtapaExportacao>
+ -->       <codVersao>2</codVersao>
+DIFF:   </beans.JavascriptVO>
+ -->     </id>
+DIFF: </list> -->     <codigoGrafico>0</codigoGrafico>

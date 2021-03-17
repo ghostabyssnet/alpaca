@@ -1,0 +1,21 @@
+Igual: <list>
+DIFF:   <br.com.lecom.workflow.domains.helpers.Formulario>
+ -->   <beans.FormularioUsuarioVO>
+DIFF:     <codigoFormulario>1</codigoFormulario>
+ -->     <id>
+DIFF:     <codigoVersao>1</codigoVersao>
+ -->       <codForm>372</codForm>
+DIFF:     <nomeTabela>f_cnen_com_mine</nomeTabela>
+ -->       <codUsuario>3</codUsuario>
+DIFF:     <formChecado>false</formChecado>
+ -->       <codVersao>2</codVersao>
+DIFF:     <formats/>
+ -->     </id>
+DIFF:   </br.com.lecom.workflow.domains.helpers.Formulario>
+ -->     <ideCampoEspecial>N</ideCampoEspecial>
+DIFF:   <br.com.lecom.workflow.domains.helpers.Formulario>
+ -->     <idePesquisa>P</idePesquisa>
+DIFF:     <codigoFormulario>1</codigoFormulario>
+ -->   </beans.FormularioUsuarioVO>
+DIFF:     <codigoVersao>2</codigoVersao>
+ --> </list>

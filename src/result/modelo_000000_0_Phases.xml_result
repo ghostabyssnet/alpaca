@@ -1,0 +1,29 @@
+Igual: <list>
+DIFF:   <beans.ProcessPhaseVO>
+ -->   <beans.IntegracaoVO>
+DIFF:     <name>Solicitação</name>
+ -->     <codIntegracao>551</codIntegracao>
+DIFF:     <sla>0</sla>
+ -->     <descricaoIntegracao>Integração do CPF Light para o Balcão Digital da FIOCRUZ (implementado na V2.0)</descricaoIntegracao>
+DIFF:     <help></help>
+ -->     <modoCadastro>U</modoCadastro>
+DIFF:     <position>1</position>
+ -->     <nomeArquivo>FIOCRUZ_BD_CPFLIGHT.jar</nomeArquivo>
+DIFF:   </beans.ProcessPhaseVO>
+ -->     <nomeClasse>com.lecom.workflow.integracao.fiocruz.FIOCRUZ_BD_CPFLIGHT</nomeClasse>
+DIFF:   <beans.ProcessPhaseVO>
+ -->     <nomeIntegracao>FIOCRUZ_BD_CPFLIGHT</nomeIntegracao>
+DIFF:     <name>Análise</name>
+ -->     <tipoIntegracao>1</tipoIntegracao>
+DIFF:     <sla>0</sla>
+ -->     <versaoIntegracao>1,0,0</versaoIntegracao>
+DIFF:     <description></description>
+ -->     <synchronousExecution>true</synchronousExecution>
+DIFF:     <help></help>
+ -->     <usuarioProprietarioExportacao>adm</usuarioProprietarioExportacao>
+DIFF:     <position>2</position>
+ -->     <usuariosPermissaoExportacao>adm</usuariosPermissaoExportacao>
+DIFF:   </beans.ProcessPhaseVO>
+ -->   </beans.IntegracaoVO>
+DIFF:   <beans.ProcessPhaseVO>
+ --> </list>
